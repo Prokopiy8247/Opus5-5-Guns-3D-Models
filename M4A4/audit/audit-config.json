@@ -1,0 +1,523 @@
+{
+ "schema_version": 1,
+ "description": "M4A4 (CS:GO name): Mk 18 Mod 0 CQBR on a Colt M4A1 lower, visual art model. Origin at the bolt face on the bore axis, x to the muzzle, z up, right side -y. Barrel 10.3 in (262 mm) with the KAC M4QD flash hider (front at 312.4 mm, 63 mm ahead of the FSB per the SAR close-up), FSB at the carbine gas position, KAC M4 RAS with 11-rib panels, A.R.M.S. #40 rear sight (raised), LMT SOPMOD stock (190 mm, per the SAR Mk 18 photo) one position out, A2 grip, USGI 30-round magazine. Receiver geometry and every control/pin position follow the leveled PEO Soldier M4 right-side photo (4.52 px/mm from the Picatinny pitch); overall 717.4 mm (SAR Mk 18 Mod 0 photo: about 713 mm) (published Mk 18 Mod 0 with M4 stock 667-679 mm collapsed, 748-762 mm extended; SOPMOD is about 1 in longer than the M4 stock). Widths: buffer tube 1.148 in (29.16 mm), Picatinny 21.2 mm, receivers 29.0 / 24.2 mm and magwell 28.4 mm (estimates), SOPMOD 57.6 mm. The bore is open; the ejection port of the upper receiver and the magazine well are sampled with rays (dust cover and magazine excluded). Engraved markings are booleans in the lower receiver.",
+ "targets": [
+  {
+   "id": "overall_carbine",
+   "frame": 1,
+   "collections": [
+    "M4A4_Body",
+    "M4A4_Furniture",
+    "M4A4_Internals",
+    "M4A4_Magazine",
+    "M4A4_Sights"
+   ],
+   "finite_transforms": true,
+   "dimensions_mm": {
+    "expected": [
+     717.4,
+     57.6,
+     247.37
+    ],
+    "tolerance_mm": [
+     3.0,
+     1.0,
+     2.0
+    ]
+   }
+  },
+  {
+   "id": "barrel",
+   "objects": [
+    "M4_Barrel"
+   ],
+   "dimensions_mm": {
+    "expected": [
+     262.6,
+     28.0,
+     28.0
+    ],
+    "tolerance_mm": [
+     0.5,
+     0.3,
+     0.3
+    ]
+   },
+   "topology": {
+    "base": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0
+    },
+    "evaluated": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0,
+     "max_wire_edges": 0
+    }
+   }
+  },
+  {
+   "id": "flash_hider",
+   "objects": [
+    "M4_FlashHider"
+   ],
+   "dimensions_mm": {
+    "expected": [
+     61.5,
+     22.2,
+     22.2
+    ],
+    "tolerance_mm": [
+     0.5,
+     0.3,
+     0.3
+    ]
+   },
+   "topology": {
+    "base": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0
+    },
+    "evaluated": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0,
+     "max_wire_edges": 0
+    }
+   }
+  },
+  {
+   "id": "buffer_tube",
+   "objects": [
+    "M4_BufferTube"
+   ],
+   "dimensions_mm": {
+    "expected": [
+     199.0,
+     29.16,
+     29.16
+    ],
+    "tolerance_mm": [
+     1.0,
+     0.1,
+     0.1
+    ]
+   },
+   "topology": {
+    "base": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0
+    },
+    "evaluated": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0,
+     "max_wire_edges": 0
+    }
+   }
+  },
+  {
+   "id": "upper_receiver",
+   "objects": [
+    "M4_UpperReceiver"
+   ],
+   "dimensions_mm": {
+    "expected": [
+     189.08,
+     34.6,
+     50.2
+    ],
+    "tolerance_mm": [
+     1.0,
+     0.5,
+     0.5
+    ]
+   },
+   "topology": {
+    "base": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0
+    },
+    "evaluated": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0,
+     "max_wire_edges": 0
+    }
+   }
+  },
+  {
+   "id": "lower_receiver",
+   "objects": [
+    "M4_LowerReceiver"
+   ],
+   "dimensions_mm": {
+    "expected": [
+     200.3,
+     36.8,
+     88.43
+    ],
+    "tolerance_mm": [
+     1.0,
+     0.5,
+     0.5
+    ]
+   },
+   "topology": {
+    "base": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0
+    },
+    "evaluated": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0,
+     "max_wire_edges": 0
+    }
+   }
+  },
+  {
+   "id": "magazine",
+   "objects": [
+    "M4_Magazine"
+   ],
+   "dimensions_mm": {
+    "expected": [
+     92.0,
+     25.0,
+     158.5
+    ],
+    "tolerance_mm": [
+     1.0,
+     0.3,
+     1.0
+    ]
+   },
+   "topology": {
+    "base": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0
+    },
+    "evaluated": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0,
+     "max_wire_edges": 0
+    }
+   }
+  },
+  {
+   "id": "all_parts_closed",
+   "objects": [
+    "M4_AutoSearPin",
+    "M4_Barrel",
+    "M4_Bolt",
+    "M4_BoltCarrier",
+    "M4_BoltCatch",
+    "M4_BoltCatchPin",
+    "M4_BufferTube",
+    "M4_CamPin",
+    "M4_Cartridge_Bullet",
+    "M4_Cartridge_Case",
+    "M4_CastleNut",
+    "M4_ChargingHandle",
+    "M4_DeltaRing",
+    "M4_Disconnector",
+    "M4_DustCover",
+    "M4_DustCoverRod",
+    "M4_EndPlate",
+    "M4_FSBPin_1",
+    "M4_FSBPin_2",
+    "M4_FSDetent",
+    "M4_FlashHider",
+    "M4_ForwardAssist",
+    "M4_FrontSightBase",
+    "M4_FrontSightPost",
+    "M4_GasTube",
+    "M4_Grip",
+    "M4_GuardPinFront",
+    "M4_GuardPinRear",
+    "M4_Hammer",
+    "M4_HammerPin",
+    "M4_LowerReceiver",
+    "M4_MagFloorplate",
+    "M4_MagFollower",
+    "M4_MagLip_L",
+    "M4_MagLip_R",
+    "M4_MagRelease",
+    "M4_Magazine",
+    "M4_PivotPin",
+    "M4_RAS",
+    "M4_RailPanel_B",
+    "M4_RailPanel_L",
+    "M4_RailPanel_R",
+    "M4_RearSight",
+    "M4_RearSightKnob",
+    "M4_RearSightLever",
+    "M4_SelectorL",
+    "M4_SelectorR",
+    "M4_SlingSwivelFront",
+    "M4_Stock",
+    "M4_StockButtpad",
+    "M4_StockLatch",
+    "M4_StockTubeCap_L",
+    "M4_StockTubeCap_R",
+    "M4_TakedownPin",
+    "M4_TopRail",
+    "M4_Trigger",
+    "M4_TriggerGuard",
+    "M4_TriggerPin",
+    "M4_UpperReceiver",
+    "M4_FAHousing"
+   ],
+   "topology": {
+    "evaluated": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0,
+     "max_wire_edges": 0
+    }
+   }
+  }
+ ],
+ "passages": [
+  {
+   "id": "bore_muzzle_to_breech",
+   "frame": 1,
+   "objects": [
+    "M4_Barrel",
+    "M4_FlashHider",
+    "M4_FrontSightBase",
+    "M4_RAS",
+    "M4_DeltaRing",
+    "M4_UpperReceiver"
+   ],
+   "unit": "mm",
+   "samples": [
+    {
+     "start": [
+      320,
+      0,
+      0
+     ],
+     "end": [
+      0.5,
+      0,
+      0
+     ]
+    },
+    {
+     "start": [
+      320,
+      1.8,
+      0
+     ],
+     "end": [
+      0.5,
+      1.8,
+      0
+     ]
+    },
+    {
+     "start": [
+      320,
+      -1.8,
+      0
+     ],
+     "end": [
+      0.5,
+      -1.8,
+      0
+     ]
+    },
+    {
+     "start": [
+      320,
+      0,
+      1.8
+     ],
+     "end": [
+      0.5,
+      0,
+      1.8
+     ]
+    },
+    {
+     "start": [
+      320,
+      0,
+      -1.8
+     ],
+     "end": [
+      0.5,
+      0,
+      -1.8
+     ]
+    }
+   ],
+   "max_hits": 0
+  },
+  {
+   "id": "bore_breech_to_muzzle",
+   "frame": 1,
+   "objects": [
+    "M4_Barrel",
+    "M4_FlashHider",
+    "M4_FrontSightBase"
+   ],
+   "unit": "mm",
+   "samples": [
+    {
+     "start": [
+      0.5,
+      0,
+      0
+     ],
+     "end": [
+      320,
+      0,
+      0
+     ]
+    },
+    {
+     "start": [
+      0.5,
+      -1.8,
+      0
+     ],
+     "end": [
+      320,
+      -1.8,
+      0
+     ]
+    },
+    {
+     "start": [
+      0.5,
+      0,
+      1.8
+     ],
+     "end": [
+      320,
+      0,
+      1.8
+     ]
+    }
+   ],
+   "max_hits": 0
+  },
+  {
+   "id": "ejection_port_right",
+   "frame": 1,
+   "objects": [
+    "M4_UpperReceiver",
+    "M4_ForwardAssist"
+   ],
+   "unit": "mm",
+   "samples": [
+    {
+     "start": [
+      -55,
+      -40,
+      4
+     ],
+     "end": [
+      -55,
+      -12.0,
+      4
+     ]
+    },
+    {
+     "start": [
+      -26,
+      -40,
+      8
+     ],
+     "end": [
+      -26,
+      -12.0,
+      8
+     ]
+    },
+    {
+     "start": [
+      5,
+      -40,
+      2
+     ],
+     "end": [
+      5,
+      -12.0,
+      2
+     ]
+    }
+   ],
+   "max_hits": 0
+  },
+  {
+   "id": "magazine_well_bottom",
+   "frame": 1,
+   "objects": [
+    "M4_LowerReceiver",
+    "M4_TriggerGuard"
+   ],
+   "unit": "mm",
+   "samples": [
+    {
+     "start": [
+      -17,
+      0,
+      -110
+     ],
+     "end": [
+      -17,
+      0,
+      -15
+     ]
+    },
+    {
+     "start": [
+      -45,
+      0,
+      -110
+     ],
+     "end": [
+      -45,
+      0,
+      -15
+     ]
+    },
+    {
+     "start": [
+      10,
+      0,
+      -110
+     ],
+     "end": [
+      10,
+      0,
+      -15
+     ]
+    },
+    {
+     "start": [
+      -17,
+      10,
+      -110
+     ],
+     "end": [
+      -17,
+      10,
+      -15
+     ]
+    },
+    {
+     "start": [
+      -17,
+      -10,
+      -110
+     ],
+     "end": [
+      -17,
+      -10,
+      -15
+     ]
+    }
+   ],
+   "max_hits": 0
+  }
+ ]
+}

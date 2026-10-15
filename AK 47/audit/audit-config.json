@@ -1,0 +1,514 @@
+{
+ "schema_version": 1,
+ "description": "AK-47 'type 3' (milled, lightened receiver), Izhevsk 1956-57, visual art model. Overall length without bayonet 870 mm (Soviet manual, ru.wikipedia, US Army operator's manual) measured from the buttplate heel to the front of the muzzle nut; barrel 415 mm from the bolt face (origin, x = 0) to the muzzle (x = 415), nut front at x = 418. Height about 255 mm with magazine (photos i01/i02). Widths from web_refs/widths_research.md: milled receiver 34.9 mm (Apex, Izhevsk forward section; 7x34 trunnion pin), dust cover 36.5-38 mm, magazine body about 25 mm, rear sight seat 24.4 mm. Overall width runs from the charging handle knob (y -25.6) to the rear sling loop on the left (y +21.05). The bore, the ejection port and the magazine well are sampled with rays. Hidden cutter objects (collection AK47_Cutters) are not part of the asset.",
+ "targets": [
+  {
+   "id": "overall_rifle",
+   "frame": 1,
+   "collections": [
+    "AK47_Body",
+    "AK47_Furniture",
+    "AK47_Internals",
+    "AK47_Magazine",
+    "AK47_Sights"
+   ],
+   "finite_transforms": true,
+   "dimensions_mm": {
+    "expected": [
+     870.0,
+     46.65,
+     254.5
+    ],
+    "tolerance_mm": [
+     4.0,
+     1.5,
+     4.0
+    ]
+   }
+  },
+  {
+   "id": "receiver",
+   "objects": [
+    "AK_Receiver"
+   ],
+   "dimensions_mm": {
+    "expected": [
+     259.9,
+     34.8,
+     62.2
+    ],
+    "tolerance_mm": [
+     2.0,
+     0.4,
+     1.0
+    ]
+   },
+   "topology": {
+    "base": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0
+    },
+    "evaluated": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0,
+     "max_wire_edges": 0
+    }
+   }
+  },
+  {
+   "id": "barrel",
+   "objects": [
+    "AK_Barrel"
+   ],
+   "dimensions_mm": {
+    "expected": [
+     415.5,
+     27.0,
+     27.0
+    ],
+    "tolerance_mm": [
+     0.5,
+     0.3,
+     0.3
+    ]
+   },
+   "topology": {
+    "base": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0
+    },
+    "evaluated": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0,
+     "max_wire_edges": 0
+    }
+   }
+  },
+  {
+   "id": "dust_cover",
+   "objects": [
+    "AK_DustCover"
+   ],
+   "dimensions_mm": {
+    "expected": [
+     230.3,
+     36.8,
+     33.5
+    ],
+    "tolerance_mm": [
+     1.0,
+     0.4,
+     1.0
+    ]
+   },
+   "topology": {
+    "base": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0
+    },
+    "evaluated": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0,
+     "max_wire_edges": 0
+    }
+   }
+  },
+  {
+   "id": "magazine",
+   "objects": [
+    "AK_Magazine"
+   ],
+   "dimensions_mm": {
+    "expected": [
+     139.7,
+     25.1,
+     166.4
+    ],
+    "tolerance_mm": [
+     1.5,
+     0.4,
+     1.5
+    ]
+   },
+   "topology": {
+    "base": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0
+    },
+    "evaluated": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0,
+     "max_wire_edges": 0
+    }
+   }
+  },
+  {
+   "id": "all_parts_closed",
+   "objects": [
+    "AK_Barrel",
+    "AK_Bolt",
+    "AK_BoltCarrier",
+    "AK_BoltExtractor",
+    "AK_BoreRifling",
+    "AK_ButtScrew_1",
+    "AK_ButtScrew_2",
+    "AK_Buttplate",
+    "AK_ButtplateHinge",
+    "AK_Cartridge_Bullet",
+    "AK_Cartridge_Case",
+    "AK_ChargingHandle",
+    "AK_ChargingKnob",
+    "AK_CleaningRod",
+    "AK_DustCover",
+    "AK_FSBPin_1",
+    "AK_FSBPin_2",
+    "AK_FrontSightBase",
+    "AK_FrontSightDrum",
+    "AK_FrontSightPost",
+    "AK_FrontSwivelLug",
+    "AK_FrontSwivelRing",
+    "AK_GasBlock",
+    "AK_GasBlockLug",
+    "AK_GasBlockPin_1",
+    "AK_GasBlockPin_2",
+    "AK_GasPiston",
+    "AK_GasTube",
+    "AK_GasTubeLever",
+    "AK_GripMount",
+    "AK_LowerHG_FrontFerrule",
+    "AK_LowerHG_RearFerrule",
+    "AK_LowerHandguard",
+    "AK_MagCatch",
+    "AK_MagCatchPin",
+    "AK_MagFloorplate",
+    "AK_MagTop",
+    "AK_Magazine",
+    "AK_MuzzleNut",
+    "AK_PistolGrip",
+    "AK_RearSightBlock",
+    "AK_RearSightButton_L",
+    "AK_RearSightButton_R",
+    "AK_RearSightLeaf",
+    "AK_RearSightSlider",
+    "AK_RearSwivelBase",
+    "AK_RearSwivelLoop",
+    "AK_Receiver",
+    "AK_ReceiverPin_1",
+    "AK_ReceiverPin_2",
+    "AK_ReceiverPin_3",
+    "AK_ReceiverPin_4",
+    "AK_RecoilGuide",
+    "AK_RecoilSpring",
+    "AK_Selector",
+    "AK_SelectorAxisL",
+    "AK_SelectorPad",
+    "AK_SelectorPivot",
+    "AK_SpringGuideLatch",
+    "AK_Stock",
+    "AK_TGRivet_1L",
+    "AK_TGRivet_1R",
+    "AK_TGRivet_2L",
+    "AK_TGRivet_2R",
+    "AK_Trigger",
+    "AK_TriggerGuard",
+    "AK_UpperHG_CapFront",
+    "AK_UpperHG_CapRear",
+    "AK_UpperHandguard",
+    "AK_RailR",
+    "AK_RailL",
+    "AK_Ejector",
+    "AK_Hammer",
+    "AK_TriggerBody",
+    "AK_Disconnector",
+    "AK_AutoSear",
+    "AK_SelectorHub",
+    "AK_HG_Spring_1",
+    "AK_HG_Spring_2",
+    "AK_FeedRound_Case",
+    "AK_FeedRound_Bullet"
+   ],
+   "topology": {
+    "evaluated": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0,
+     "max_wire_edges": 0
+    }
+   }
+  }
+ ],
+ "passages": [
+  {
+   "id": "bore_muzzle_to_breech",
+   "frame": 1,
+   "objects": [
+    "AK_Barrel",
+    "AK_MuzzleNut",
+    "AK_BoreRifling",
+    "AK_FrontSightBase",
+    "AK_GasBlock",
+    "AK_FrontSightPost"
+   ],
+   "unit": "mm",
+   "samples": [
+    {
+     "start": [
+      430,
+      0,
+      0
+     ],
+     "end": [
+      1.0,
+      0,
+      0
+     ]
+    },
+    {
+     "start": [
+      430,
+      2.5,
+      0
+     ],
+     "end": [
+      1.0,
+      2.5,
+      0
+     ]
+    },
+    {
+     "start": [
+      430,
+      -2.5,
+      0
+     ],
+     "end": [
+      1.0,
+      -2.5,
+      0
+     ]
+    },
+    {
+     "start": [
+      430,
+      0,
+      2.5
+     ],
+     "end": [
+      1.0,
+      0,
+      2.5
+     ]
+    },
+    {
+     "start": [
+      430,
+      0,
+      -2.5
+     ],
+     "end": [
+      1.0,
+      0,
+      -2.5
+     ]
+    },
+    {
+     "start": [
+      430,
+      1.8,
+      1.8
+     ],
+     "end": [
+      1.0,
+      1.8,
+      1.8
+     ]
+    }
+   ],
+   "max_hits": 0
+  },
+  {
+   "id": "bore_breech_to_muzzle",
+   "frame": 1,
+   "objects": [
+    "AK_Barrel",
+    "AK_MuzzleNut",
+    "AK_BoreRifling",
+    "AK_FrontSightBase",
+    "AK_GasBlock"
+   ],
+   "unit": "mm",
+   "samples": [
+    {
+     "start": [
+      1.0,
+      0,
+      0
+     ],
+     "end": [
+      430,
+      0,
+      0
+     ]
+    },
+    {
+     "start": [
+      1.0,
+      -2.5,
+      0
+     ],
+     "end": [
+      430,
+      -2.5,
+      0
+     ]
+    },
+    {
+     "start": [
+      1.0,
+      0,
+      -2.5
+     ],
+     "end": [
+      430,
+      0,
+      -2.5
+     ]
+    }
+   ],
+   "max_hits": 0
+  },
+  {
+   "id": "ejection_port_right",
+   "frame": 1,
+   "objects": [
+    "AK_Receiver",
+    "AK_DustCover",
+    "AK_Selector"
+   ],
+   "unit": "mm",
+   "samples": [
+    {
+     "start": [
+      -40,
+      -40,
+      15
+     ],
+     "end": [
+      -40,
+      -14.0,
+      15
+     ]
+    },
+    {
+     "start": [
+      0,
+      -40,
+      12
+     ],
+     "end": [
+      0,
+      -14.0,
+      12
+     ]
+    },
+    {
+     "start": [
+      12,
+      -40,
+      22
+     ],
+     "end": [
+      12,
+      -14.0,
+      22
+     ]
+    },
+    {
+     "start": [
+      -55,
+      -40,
+      20
+     ],
+     "end": [
+      -55,
+      -14.0,
+      20
+     ]
+    }
+   ],
+   "max_hits": 0
+  },
+  {
+   "id": "magazine_well_bottom",
+   "frame": 1,
+   "objects": [
+    "AK_Receiver",
+    "AK_TriggerGuard",
+    "AK_GripMount"
+   ],
+   "unit": "mm",
+   "samples": [
+    {
+     "start": [
+      -40,
+      0,
+      -60
+     ],
+     "end": [
+      -40,
+      0,
+      -20
+     ]
+    },
+    {
+     "start": [
+      -65,
+      0,
+      -60
+     ],
+     "end": [
+      -65,
+      0,
+      -20
+     ]
+    },
+    {
+     "start": [
+      -12,
+      0,
+      -60
+     ],
+     "end": [
+      -12,
+      0,
+      -20
+     ]
+    },
+    {
+     "start": [
+      -40,
+      10,
+      -60
+     ],
+     "end": [
+      -40,
+      10,
+      -20
+     ]
+    },
+    {
+     "start": [
+      -40,
+      -10,
+      -60
+     ],
+     "end": [
+      -40,
+      -10,
+      -20
+     ]
+    }
+   ],
+   "max_hits": 0
+  }
+ ]
+}

@@ -1,0 +1,486 @@
+{
+ "schema_version": 1,
+ "description": "AR-15: LMT Defense R20 RAHE Reference Rifle (CQBMLK143PW-MARS-EST), visual art model. Barrel 14.3 in (363 mm) from the bolt face (origin, x = 0) with the pinned and welded flash hider ending at 16.0 in (406 mm), per LMT and Silencer Shop. Proportions follow the official LMT side photo (5449 px, 6.45 px/mm from the Picatinny pitch); overall length on that photo is about 824 mm (stock one click out), published 800-808 mm collapsed and 884-891 mm extended. Height from the raised LMT front sight to the PMAG floorplate about 269-271 mm on the photo (model 270.8). Widths: buffer tube 1.148 in (29.16 mm), Picatinny 21.2 mm, PMAG body 25.2 mm, M-LOK slots 32 x 7 mm at 40 mm pitch; handguard 38 mm and receivers 29.2 / 24.2 mm are estimates (no top view). The bore and the barrel extension are open; the magazine well and the ejection port are sampled with rays. Text inlays (AR_Mark_*, AR_StockText_*) are open thin solids from font curves and are excluded from the closed-part check. Revision 2 (2026-10-15, after review v1): A2-type forward assist at the rear, wedge deflector, LMT folding sights, MOE SL-K pocket/lever/badge/rubber pad, PMAG Gen M3 window grid, slanted magwell lip, MARS-L bolt catch, trigger and guard per photo, rear tower/castle nut/end plate moved to the photo positions.",
+ "targets": [
+  {
+   "id": "overall_rifle",
+   "frame": 1,
+   "collections": [
+    "AR15_Body",
+    "AR15_Furniture",
+    "AR15_Internals",
+    "AR15_Magazine",
+    "AR15_Sights"
+   ],
+   "finite_transforms": true,
+   "dimensions_mm": {
+    "expected": [
+     823.1,
+     43.07,
+     270.8
+    ],
+    "tolerance_mm": [
+     4.0,
+     1.5,
+     3.0
+    ]
+   }
+  },
+  {
+   "id": "barrel",
+   "objects": [
+    "AR_Barrel"
+   ],
+   "dimensions_mm": {
+    "expected": [
+     364.0,
+     28.0,
+     28.0
+    ],
+    "tolerance_mm": [
+     0.5,
+     0.3,
+     0.3
+    ]
+   },
+   "topology": {
+    "base": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0
+    },
+    "evaluated": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0,
+     "max_wire_edges": 0
+    }
+   }
+  },
+  {
+   "id": "flash_hider",
+   "objects": [
+    "AR_FlashHider"
+   ],
+   "dimensions_mm": {
+    "expected": [
+     66.7,
+     21.6,
+     24.0
+    ],
+    "tolerance_mm": [
+     0.5,
+     0.3,
+     0.5
+    ]
+   },
+   "topology": {
+    "base": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0
+    },
+    "evaluated": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0,
+     "max_wire_edges": 0
+    }
+   }
+  },
+  {
+   "id": "buffer_tube",
+   "objects": [
+    "AR_BufferTube"
+   ],
+   "dimensions_mm": {
+    "expected": [
+     185.0,
+     29.16,
+     29.16
+    ],
+    "tolerance_mm": [
+     1.0,
+     0.1,
+     0.1
+    ]
+   },
+   "topology": {
+    "base": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0
+    },
+    "evaluated": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0,
+     "max_wire_edges": 0
+    }
+   }
+  },
+  {
+   "id": "magazine",
+   "objects": [
+    "AR_Magazine"
+   ],
+   "dimensions_mm": {
+    "expected": [
+     86.96,
+     25.2,
+     164.53
+    ],
+    "tolerance_mm": [
+     1.0,
+     0.3,
+     1.0
+    ]
+   },
+   "topology": {
+    "base": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0
+    },
+    "evaluated": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0,
+     "max_wire_edges": 0
+    }
+   }
+  },
+  {
+   "id": "all_parts_closed",
+   "objects": [
+    "AR_Barrel",
+    "AR_BarrelBoltPad",
+    "AR_BarrelBolt_1",
+    "AR_BarrelBolt_2",
+    "AR_Bolt",
+    "AR_BoltCarrier",
+    "AR_BoltCatchL",
+    "AR_BoltCatchR",
+    "AR_BufferTube",
+    "AR_CamPin",
+    "AR_CastleNut",
+    "AR_ChargingHandle",
+    "AR_Disconnector",
+    "AR_DustCover",
+    "AR_DustCoverLatch",
+    "AR_DustCoverRod",
+    "AR_DustCoverSpring",
+    "AR_EndPlate",
+    "AR_FiringPinRetainer",
+    "AR_FlashHider",
+    "AR_ForwardAssist",
+    "AR_ForwardAssistStem",
+    "AR_FrontSight",
+    "AR_FrontSightButton",
+    "AR_FrontSightDrum",
+    "AR_FrontSightPost",
+    "AR_FrontSightScrew",
+    "AR_GBPin_1",
+    "AR_GasBlock",
+    "AR_Grip",
+    "AR_GripBump_L",
+    "AR_GripBump_R",
+    "AR_GripTang",
+    "AR_GuardPinFront",
+    "AR_GuardPinRear",
+    "AR_Hammer",
+    "AR_HammerPin",
+    "AR_Handguard",
+    "AR_LowerReceiver",
+    "AR_MagFloorplate",
+    "AR_MagGripTex",
+    "AR_MagRelease",
+    "AR_MagReleaseL",
+    "AR_Magazine",
+    "AR_PictFireBullet_L",
+    "AR_PictFireBullet_R",
+    "AR_PictFire_L",
+    "AR_PictFire_R",
+    "AR_PictSafeBullet_L",
+    "AR_PictSafeBullet_R",
+    "AR_PictSafeX1_L",
+    "AR_PictSafeX1_R",
+    "AR_PictSafeX2_L",
+    "AR_PictSafeX2_R",
+    "AR_PictSafe_L",
+    "AR_PictSafe_R",
+    "AR_PictScrewRing_L",
+    "AR_PictScrewRing_R",
+    "AR_PivotPin",
+    "AR_RearSight",
+    "AR_RearSightDrum_L",
+    "AR_RearSightDrum_R",
+    "AR_RearSightScrew",
+    "AR_Selector_L",
+    "AR_Selector_R",
+    "AR_Stock",
+    "AR_StockBadge_L",
+    "AR_StockBadge_R",
+    "AR_StockButtpad",
+    "AR_StockLatch_L",
+    "AR_StockLatch_R",
+    "AR_StockScrew_L",
+    "AR_StockScrew_R",
+    "AR_StockSpring_L",
+    "AR_StockSpring_R",
+    "AR_TakedownPin",
+    "AR_TopRail",
+    "AR_Trigger",
+    "AR_TriggerGuard",
+    "AR_TriggerPin",
+    "AR_UpperReceiver"
+   ],
+   "topology": {
+    "evaluated": {
+     "max_nonmanifold_edges": 0,
+     "max_loose_vertices": 0,
+     "max_wire_edges": 0
+    }
+   }
+  }
+ ],
+ "passages": [
+  {
+   "id": "bore_muzzle_to_breech",
+   "frame": 1,
+   "objects": [
+    "AR_Barrel",
+    "AR_FlashHider",
+    "AR_GasBlock",
+    "AR_Handguard",
+    "AR_UpperReceiver"
+   ],
+   "unit": "mm",
+   "samples": [
+    {
+     "start": [
+      420,
+      0,
+      0
+     ],
+     "end": [
+      0.5,
+      0,
+      0
+     ]
+    },
+    {
+     "start": [
+      420,
+      1.8,
+      0
+     ],
+     "end": [
+      0.5,
+      1.8,
+      0
+     ]
+    },
+    {
+     "start": [
+      420,
+      -1.8,
+      0
+     ],
+     "end": [
+      0.5,
+      -1.8,
+      0
+     ]
+    },
+    {
+     "start": [
+      420,
+      0,
+      1.8
+     ],
+     "end": [
+      0.5,
+      0,
+      1.8
+     ]
+    },
+    {
+     "start": [
+      420,
+      0,
+      -1.8
+     ],
+     "end": [
+      0.5,
+      0,
+      -1.8
+     ]
+    }
+   ],
+   "max_hits": 0
+  },
+  {
+   "id": "bore_breech_to_muzzle",
+   "frame": 1,
+   "objects": [
+    "AR_Barrel",
+    "AR_FlashHider",
+    "AR_GasBlock"
+   ],
+   "unit": "mm",
+   "samples": [
+    {
+     "start": [
+      0.5,
+      0,
+      0
+     ],
+     "end": [
+      420,
+      0,
+      0
+     ]
+    },
+    {
+     "start": [
+      0.5,
+      -1.8,
+      0
+     ],
+     "end": [
+      420,
+      -1.8,
+      0
+     ]
+    },
+    {
+     "start": [
+      0.5,
+      0,
+      1.8
+     ],
+     "end": [
+      420,
+      0,
+      1.8
+     ]
+    }
+   ],
+   "max_hits": 0
+  },
+  {
+   "id": "ejection_port_right",
+   "frame": 1,
+   "objects": [
+    "AR_UpperReceiver",
+    "AR_DustCover",
+    "AR_ForwardAssist"
+   ],
+   "unit": "mm",
+   "samples": [
+    {
+     "start": [
+      -90,
+      -40,
+      4
+     ],
+     "end": [
+      -90,
+      -12.5,
+      4
+     ]
+    },
+    {
+     "start": [
+      -60,
+      -40,
+      8
+     ],
+     "end": [
+      -60,
+      -12.5,
+      8
+     ]
+    },
+    {
+     "start": [
+      -35,
+      -40,
+      0
+     ],
+     "end": [
+      -35,
+      -12.5,
+      0
+     ]
+    }
+   ],
+   "max_hits": 0
+  },
+  {
+   "id": "magazine_well_bottom",
+   "frame": 1,
+   "objects": [
+    "AR_LowerReceiver",
+    "AR_TriggerGuard"
+   ],
+   "unit": "mm",
+   "samples": [
+    {
+     "start": [
+      -50,
+      0,
+      -110
+     ],
+     "end": [
+      -50,
+      0,
+      -35
+     ]
+    },
+    {
+     "start": [
+      -75,
+      0,
+      -110
+     ],
+     "end": [
+      -75,
+      0,
+      -35
+     ]
+    },
+    {
+     "start": [
+      -26,
+      0,
+      -110
+     ],
+     "end": [
+      -26,
+      0,
+      -35
+     ]
+    },
+    {
+     "start": [
+      -50,
+      10,
+      -110
+     ],
+     "end": [
+      -50,
+      10,
+      -35
+     ]
+    },
+    {
+     "start": [
+      -50,
+      -10,
+      -110
+     ],
+     "end": [
+      -50,
+      -10,
+      -35
+     ]
+    }
+   ],
+   "max_hits": 0
+  }
+ ]
+}

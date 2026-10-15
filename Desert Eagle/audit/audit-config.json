@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "description": "Desert Eagle Mark XIX .50 AE 6in (Magnum Research, Pillager MN, Brushed Chrome DE50BC). Published dimensions (Magnum Research manual 2023 p.12, KFG catalogue 2026, KFG DE50 page): overall length 10.75 in = 273.05 mm, barrel 6 in = 152.4 mm (breech face to muzzle; the barrel object also carries the breech block 6.9 mm behind the breech face and the chin/rail, so its bbox is 159.3 x 28.0 x 43.45 mm), height 6.25 in = 158.75 mm, slide width 1.25 in = 31.75 mm. Height: every studio photo (KFG k01/k02/k06/k07) gives height/length 0.571-0.575, i.e. 155.9-157.0 mm, so the model follows the photos (155.9) and the published 158.75 is checked with a 3.5 mm tolerance. Overall width includes the ambidextrous safety levers (not published; model value, orientation tolerance). Frame/barrel/slide Y and Z extents not source-confirmed beyond the slide width (wide tolerance). Bore and magazine-well passages sampled with axial and offset rays from both ends; the magazine-well rays run along the magazine axis (DE_Magazine_Root local Z) with the magazine itself excluded. max_zero_area_faces is intentionally omitted for the same reason as the M1911 config (scanfill epsilon on metre coordinates collapses faces with sub-0.1 mm edges); degenerate faces are checked separately with bmesh.",
+  "targets": [
+    {
+      "id": "overall_pistol",
+      "frame": 1,
+      "collections": ["DE_Body", "DE_Furniture", "DE_Internals", "DE_Magazine", "DE_Sights"],
+      "finite_transforms": true,
+      "dimensions_mm": {"expected": [273.05, 38.35, 158.75], "tolerance_mm": [2.7, 1.0, 3.5]}
+    },
+    {
+      "id": "barrel",
+      "objects": ["DE_Barrel"],
+      "dimensions_mm": {"expected": [159.31, 28.0, 43.45], "tolerance_mm": [1.6, 1.0, 1.5]},
+      "topology": {
+        "base": {"max_nonmanifold_edges": 0, "max_loose_vertices": 0},
+        "evaluated": {"max_nonmanifold_edges": 0, "max_loose_vertices": 0}
+      }
+    },
+    {
+      "id": "slide",
+      "objects": ["DE_Slide"],
+      "dimensions_mm": {"expected": [224.0, 31.75, 45.2], "tolerance_mm": [3.0, 0.32, 2.0]},
+      "topology": {
+        "base": {"max_nonmanifold_edges": 0, "max_loose_vertices": 0},
+        "evaluated": {"max_nonmanifold_edges": 0, "max_loose_vertices": 0}
+      }
+    },
+    {
+      "id": "frame",
+      "objects": ["DE_Frame"],
+      "dimensions_mm": {"expected": [254.85, 30.02, 112.64], "tolerance_mm": [3.0, 0.5, 3.0]},
+      "topology": {
+        "base": {"max_nonmanifold_edges": 0, "max_loose_vertices": 0},
+        "evaluated": {"max_nonmanifold_edges": 0, "max_loose_vertices": 0}
+      }
+    },
+    {
+      "id": "width_over_grip_panels",
+      "objects": ["DE_GripPanel_L", "DE_GripPanel_R"],
+      "dimensions_mm": {"expected": [70.03, 30.8, 85.84], "tolerance_mm": [3.0, 0.8, 3.0]},
+      "topology": {"evaluated": {"max_nonmanifold_edges": 0, "max_loose_vertices": 0}}
+    },
+    {
+      "id": "closed_small_parts",
+      "objects": ["DE_Bolt", "DE_Extractor", "DE_ExtractorPin", "DE_FiringPin", "DE_FrontSight", "DE_RearSight",
+                  "DE_Hammer", "DE_Trigger", "DE_TriggerPin_R", "DE_Safety_L", "DE_Safety_R", "DE_SafetyScrew_L",
+                  "DE_SafetyScrew_R", "DE_SafetyDot_L", "DE_SafetyDot_R", "DE_SlideRelease", "DE_SlideRelease_Knob",
+                  "DE_TakedownLever", "DE_TakedownPin", "DE_MagRelease", "DE_MagCatchScrew_R", "DE_MagCatchTab_R",
+                  "DE_BarrelRelease_R", "DE_BarrelRelease_Pin", "DE_GasPiston", "DE_RecoilPlate", "DE_RecoilRod_L",
+                  "DE_RecoilRod_R", "DE_RecoilClip_L", "DE_RecoilClip_R", "DE_GripScrew_L", "DE_GripScrew_R",
+                  "DE_GripMedallion_L", "DE_GripMedallion_R"],
+      "topology": {"evaluated": {"max_nonmanifold_edges": 0, "max_loose_vertices": 0, "max_wire_edges": 0}}
+    },
+    {
+      "id": "magazine_parts",
+      "collections": ["DE_Magazine"],
+      "topology": {"evaluated": {"max_overfull_edges": 0, "max_loose_vertices": 0, "max_wire_edges": 0}}
+    },
+    {
+      "id": "recoil_springs",
+      "objects": ["DE_RecoilSpringOuter_L", "DE_RecoilSpringOuter_R", "DE_RecoilSpringInner_L", "DE_RecoilSpringInner_R"],
+      "topology": {"evaluated": {"max_overfull_edges": 0, "max_loose_vertices": 0, "max_wire_edges": 0}}
+    }
+  ],
+  "poses": [
+    {
+      "id": "rest_pose_controls",
+      "frame": 1,
+      "objects": ["DE_Slide", "DE_Bolt", "DE_Hammer", "DE_Trigger", "DE_Safety_L", "DE_Safety_R", "DE_SlideRelease",
+                  "DE_MagRelease", "DE_TakedownLever", "DE_BarrelRelease_R", "DE_Magazine_Root"],
+      "camera": "CAM_Hero",
+      "criteria": [
+        {"object": "DE_Slide", "visible": true, "finite_transform": true, "location_mm": {"expected": [0, 0, 0], "tolerance_mm": 0.01}},
+        {"object": "DE_Bolt", "visible": true, "finite_transform": true, "location_mm": {"expected": [0, 0, 0], "tolerance_mm": 0.01}},
+        {"object": "DE_Hammer", "visible": true, "finite_transform": true, "location_mm": {"expected": [-92.0, 0, -25.5], "tolerance_mm": 0.05}},
+        {"object": "DE_Trigger", "visible": true, "finite_transform": true, "location_mm": {"expected": [-15.7, 0, -30.4], "tolerance_mm": 0.05}},
+        {"object": "DE_Safety_L", "visible": true, "location_mm": {"expected": [-71.4, 15.08, 4.6], "tolerance_mm": 0.05}},
+        {"object": "DE_Safety_R", "visible": true, "location_mm": {"expected": [-71.4, -15.08, 4.6], "tolerance_mm": 0.05}},
+        {"object": "DE_SlideRelease", "visible": true, "finite_transform": true},
+        {"object": "DE_MagRelease", "visible": true, "finite_transform": true},
+        {"object": "DE_TakedownLever", "visible": true, "finite_transform": true},
+        {"object": "DE_BarrelRelease_R", "visible": true, "finite_transform": true},
+        {"object": "DE_Magazine_Root", "finite_transform": true, "location_mm": {"expected": [-64.55, 0, -127.6], "tolerance_mm": 0.05}}
+      ]
+    }
+  ],
+  "passages": [
+    {
+      "id": "bore_muzzle_to_breech",
+      "frame": 1,
+      "objects": ["DE_Barrel", "DE_FrontSight", "DE_Slide", "DE_Frame", "DE_Bolt", "DE_Extractor", "DE_FiringPin", "DE_GasPiston"],
+      "unit": "mm",
+      "samples": [
+        {"start": [170, 0, 0], "end": [0.5, 0, 0]},
+        {"start": [170, 3.5, 0], "end": [0.5, 3.5, 0]},
+        {"start": [170, -3.5, 0], "end": [0.5, -3.5, 0]},
+        {"start": [170, 0, 3.5], "end": [0.5, 0, 3.5]},
+        {"start": [170, 0, -3.5], "end": [0.5, 0, -3.5]},
+        {"start": [170, 2.5, 2.5], "end": [0.5, 2.5, 2.5]},
+        {"start": [170, -2.5, -2.5], "end": [0.5, -2.5, -2.5]}
+      ],
+      "max_hits": 0
+    },
+    {
+      "id": "bore_breech_to_muzzle",
+      "frame": 1,
+      "objects": ["DE_Barrel", "DE_FrontSight", "DE_Slide", "DE_Frame", "DE_Bolt", "DE_Extractor", "DE_FiringPin", "DE_GasPiston"],
+      "unit": "mm",
+      "samples": [
+        {"start": [0.5, 0, 0], "end": [170, 0, 0]},
+        {"start": [0.5, 3.5, 0], "end": [170, 3.5, 0]},
+        {"start": [0.5, 0, -3.5], "end": [170, 0, -3.5]},
+        {"start": [0.5, -2.5, 2.5], "end": [170, -2.5, 2.5]}
+      ],
+      "max_hits": 0
+    },
+    {
+      "id": "magazine_well_bottom_to_top",
+      "frame": 1,
+      "objects": ["DE_Frame", "DE_GripPanel_L", "DE_GripPanel_R", "DE_MagRelease", "DE_MagCatchTab_R",
+                  "DE_MagCatchScrew_R", "DE_Trigger", "DE_Hammer", "DE_GripScrew_L", "DE_GripScrew_R"],
+      "reference_object": "DE_Magazine_Root",
+      "unit": "mm",
+      "samples": [
+        {"start": [-17, 0, -25], "end": [-17, 0, 110]},
+        {"start": [0, 0, -25], "end": [0, 0, 110]},
+        {"start": [17, 0, -25], "end": [17, 0, 110]},
+        {"start": [-8, 5, -25], "end": [-8, 5, 110]},
+        {"start": [8, -5, -25], "end": [8, -5, 110]},
+        {"start": [-17, -5, -25], "end": [-17, -5, 110]},
+        {"start": [17, 5, -25], "end": [17, 5, 110]}
+      ],
+      "max_hits": 0
+    },
+    {
+      "id": "magazine_well_top_to_bottom",
+      "frame": 1,
+      "objects": ["DE_Frame", "DE_GripPanel_L", "DE_GripPanel_R", "DE_MagRelease", "DE_MagCatchTab_R", "DE_Trigger", "DE_Hammer"],
+      "reference_object": "DE_Magazine_Root",
+      "unit": "mm",
+      "samples": [
+        {"start": [0, 0, 110], "end": [0, 0, -25]},
+        {"start": [-17, 5, 110], "end": [-17, 5, -25]},
+        {"start": [17, -5, 110], "end": [17, -5, -25]}
+      ],
+      "max_hits": 0
+    }
+  ]
+}

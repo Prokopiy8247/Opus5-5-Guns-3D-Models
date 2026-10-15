@@ -1,0 +1,571 @@
+{
+  "schema_version": 1,
+  "description": "Remington 870 Hardwood Home Defense (#81197, Remington Arms, 2016-2020 look). Key dimensions: overall length 38.5 in = 978 mm (remington.com / remarms.com / The Mag Life); barrel 18.5 in = 470 mm from the closed bolt face to the muzzle. The bolt face sits at the front edge of the ejection port (photos c01, c02, o02, ra02, ra03 all show the bolt filling the port with the extractor at its front end), x = 20 mm in model space; the muzzle is at x = 490 mm. The barrel object also carries the extension ring 6 mm behind the breech face, so its bbox is 476 mm. Proportions (stock length, pitch, grip, barrel, clamp, bead) follow the orthographic distributor photo i01 of #81197 scaled to 2.53 px/mm (overall length 978 mm and receiver height 62.3 mm give the same scale); o02 agrees within its perspective. Receiver about 7 13/16 in (198 mm, 16ga.com) x 1.35 in (34.3 mm) x 2.45 in (62 mm). Overall width is the forend (44 mm, assumption: no top view of #81197). Overall height runs from the recoil pad toe (z -166.3, i01: -167) to the bead top. Bore (0.729 in), magazine tube (1.00 in OD) and receiver bottom opening are sampled with axial and offset rays; the shells, follower and spring are excluded from the magazine-tube passage because the magazine is modelled loaded. max_zero_area_faces is omitted (scanfill epsilon on metre coordinates collapses the checkering and lettering micro-faces); degenerate faces are checked separately with bmesh.",
+  "targets": [
+    {
+      "id": "overall_shotgun",
+      "frame": 1,
+      "collections": [
+        "R870_Body",
+        "R870_Furniture",
+        "R870_Internals",
+        "R870_Magazine",
+        "R870_Sights"
+      ],
+      "finite_transforms": true,
+      "dimensions_mm": {
+        "expected": [
+          978.0,
+          44.0,
+          183.9
+        ],
+        "tolerance_mm": [
+          9.8,
+          2.0,
+          4.0
+        ]
+      }
+    },
+    {
+      "id": "barrel",
+      "objects": [
+        "R870_Barrel"
+      ],
+      "dimensions_mm": {
+        "expected": [
+          476.0,
+          29.5,
+          29.5
+        ],
+        "tolerance_mm": [
+          1.0,
+          0.6,
+          0.6
+        ]
+      },
+      "topology": {
+        "base": {
+          "max_nonmanifold_edges": 0,
+          "max_loose_vertices": 0
+        },
+        "evaluated": {
+          "max_nonmanifold_edges": 0,
+          "max_loose_vertices": 0
+        }
+      }
+    },
+    {
+      "id": "receiver",
+      "objects": [
+        "R870_Receiver"
+      ],
+      "dimensions_mm": {
+        "expected": [
+          198.4,
+          34.3,
+          62.3
+        ],
+        "tolerance_mm": [
+          3.0,
+          0.7,
+          1.5
+        ]
+      },
+      "topology": {
+        "base": {
+          "max_nonmanifold_edges": 0,
+          "max_loose_vertices": 0
+        },
+        "evaluated": {
+          "max_nonmanifold_edges": 0,
+          "max_loose_vertices": 0
+        }
+      }
+    },
+    {
+      "id": "stock_and_forend",
+      "objects": [
+        "R870_Stock",
+        "R870_Forend",
+        "R870_RecoilPad"
+      ],
+      "topology": {
+        "base": {
+          "max_nonmanifold_edges": 0,
+          "max_loose_vertices": 0
+        },
+        "evaluated": {
+          "max_nonmanifold_edges": 0,
+          "max_loose_vertices": 0
+        }
+      }
+    },
+    {
+      "id": "magazine_tubes",
+      "objects": [
+        "R870_MagTube",
+        "R870_MagExtension"
+      ],
+      "dimensions_mm": {
+        "expected": [
+          470.0,
+          25.4,
+          25.4
+        ],
+        "tolerance_mm": [
+          2.0,
+          0.3,
+          0.3
+        ]
+      },
+      "topology": {
+        "evaluated": {
+          "max_nonmanifold_edges": 0,
+          "max_loose_vertices": 0
+        }
+      }
+    },
+    {
+      "id": "closed_parts",
+      "objects": [
+        "R870_BarrelRing",
+        "R870_MagExtCoupling",
+        "R870_BarrelClamp",
+        "R870_ClampScrew",
+        "R870_ClampNut",
+        "R870_SlingStud_Base",
+        "R870_FrontSightBase",
+        "R870_FrontSightBead",
+        "R870_TriggerPlate",
+        "R870_TriggerPlateHousing",
+        "R870_Trigger",
+        "R870_Safety",
+        "R870_ActionBarLock",
+        "R870_TriggerPlatePin_Front",
+        "R870_TriggerPlatePin_Rear",
+        "R870_Bolt",
+        "R870_Extractor",
+        "R870_ExtractorClaw",
+        "R870_LockingBlock",
+        "R870_Slide",
+        "R870_ActionBar_L",
+        "R870_ActionBar_R",
+        "R870_Carrier",
+        "R870_CarrierArms",
+        "R870_ShellLatch_L",
+        "R870_ShellLatch_R",
+        "R870_Hammer",
+        "R870_ForendTube",
+        "R870_ForendNut",
+        "R870_MagFollower"
+      ],
+      "topology": {
+        "evaluated": {
+          "max_nonmanifold_edges": 0,
+          "max_loose_vertices": 0,
+          "max_wire_edges": 0
+        }
+      }
+    },
+    {
+      "id": "magazine_spring_and_shells",
+      "collections": [
+        "R870_Magazine"
+      ],
+      "topology": {
+        "evaluated": {
+          "max_overfull_edges": 0,
+          "max_loose_vertices": 0,
+          "max_wire_edges": 0
+        }
+      }
+    }
+  ],
+  "poses": [
+    {
+      "id": "rest_pose_controls",
+      "frame": 1,
+      "objects": [
+        "R870_Forend_Root",
+        "R870_Trigger",
+        "R870_Safety",
+        "R870_ActionBarLock",
+        "R870_Carrier",
+        "R870_Magazine_Root"
+      ],
+      "camera": "CAM_Hero",
+      "criteria": [
+        {
+          "object": "R870_Forend_Root",
+          "finite_transform": true,
+          "location_mm": {
+            "expected": [
+              86.0,
+              0,
+              -29.1
+            ],
+            "tolerance_mm": 0.05
+          }
+        },
+        {
+          "object": "R870_Trigger",
+          "visible": true,
+          "finite_transform": true,
+          "location_mm": {
+            "expected": [
+              -134.6,
+              0,
+              -44.4
+            ],
+            "tolerance_mm": 0.05
+          }
+        },
+        {
+          "object": "R870_Safety",
+          "visible": true,
+          "finite_transform": true,
+          "location_mm": {
+            "expected": [
+              -151.11,
+              0,
+              -48.19
+            ],
+            "tolerance_mm": 0.05
+          }
+        },
+        {
+          "object": "R870_ActionBarLock",
+          "visible": true,
+          "finite_transform": true
+        },
+        {
+          "object": "R870_Carrier",
+          "finite_transform": true,
+          "location_mm": {
+            "expected": [
+              -52.0,
+              0,
+              -33.5
+            ],
+            "tolerance_mm": 0.05
+          }
+        },
+        {
+          "object": "R870_Magazine_Root",
+          "finite_transform": true,
+          "location_mm": {
+            "expected": [
+              20.0,
+              0,
+              -29.1
+            ],
+            "tolerance_mm": 0.05
+          }
+        }
+      ]
+    }
+  ],
+  "passages": [
+    {
+      "id": "bore_muzzle_to_breech",
+      "frame": 1,
+      "objects": [
+        "R870_Barrel",
+        "R870_FrontSightBase",
+        "R870_FrontSightBead",
+        "R870_Receiver",
+        "R870_BarrelClamp"
+      ],
+      "unit": "mm",
+      "samples": [
+        {
+          "start": [
+            500,
+            0,
+            0
+          ],
+          "end": [
+            20.5,
+            0,
+            0
+          ]
+        },
+        {
+          "start": [
+            500,
+            6.0,
+            0
+          ],
+          "end": [
+            20.5,
+            6.0,
+            0
+          ]
+        },
+        {
+          "start": [
+            500,
+            -6.0,
+            0
+          ],
+          "end": [
+            20.5,
+            -6.0,
+            0
+          ]
+        },
+        {
+          "start": [
+            500,
+            0,
+            6.0
+          ],
+          "end": [
+            20.5,
+            0,
+            6.0
+          ]
+        },
+        {
+          "start": [
+            500,
+            0,
+            -6.0
+          ],
+          "end": [
+            20.5,
+            0,
+            -6.0
+          ]
+        },
+        {
+          "start": [
+            500,
+            4.5,
+            4.5
+          ],
+          "end": [
+            20.5,
+            4.5,
+            4.5
+          ]
+        },
+        {
+          "start": [
+            500,
+            -4.5,
+            -4.5
+          ],
+          "end": [
+            20.5,
+            -4.5,
+            -4.5
+          ]
+        }
+      ],
+      "max_hits": 0
+    },
+    {
+      "id": "bore_breech_to_muzzle",
+      "frame": 1,
+      "objects": [
+        "R870_Barrel",
+        "R870_FrontSightBase",
+        "R870_FrontSightBead",
+        "R870_BarrelClamp"
+      ],
+      "unit": "mm",
+      "samples": [
+        {
+          "start": [
+            20.5,
+            0,
+            0
+          ],
+          "end": [
+            500,
+            0,
+            0
+          ]
+        },
+        {
+          "start": [
+            20.5,
+            6.0,
+            0
+          ],
+          "end": [
+            500,
+            6.0,
+            0
+          ]
+        },
+        {
+          "start": [
+            20.5,
+            0,
+            -6.0
+          ],
+          "end": [
+            500,
+            0,
+            -6.0
+          ]
+        },
+        {
+          "start": [
+            20.5,
+            -4.5,
+            4.5
+          ],
+          "end": [
+            500,
+            -4.5,
+            4.5
+          ]
+        }
+      ],
+      "max_hits": 0
+    },
+    {
+      "id": "magazine_tube_bore",
+      "frame": 1,
+      "objects": [
+        "R870_MagTube",
+        "R870_MagExtension",
+        "R870_MagExtCoupling",
+        "R870_BarrelRing",
+        "R870_Forend",
+        "R870_ForendTube",
+        "R870_ForendNut",
+        "R870_BarrelClamp",
+        "R870_Receiver"
+      ],
+      "unit": "mm",
+      "samples": [
+        {
+          "start": [
+            21,
+            0,
+            -29.1
+          ],
+          "end": [
+            487.0,
+            0,
+            -29.1
+          ]
+        },
+        {
+          "start": [
+            21,
+            7.5,
+            -29.1
+          ],
+          "end": [
+            487.0,
+            7.5,
+            -29.1
+          ]
+        },
+        {
+          "start": [
+            21,
+            -7.5,
+            -29.1
+          ],
+          "end": [
+            487.0,
+            -7.5,
+            -29.1
+          ]
+        },
+        {
+          "start": [
+            21,
+            0,
+            -21.6
+          ],
+          "end": [
+            487.0,
+            0,
+            -21.6
+          ]
+        },
+        {
+          "start": [
+            21,
+            0,
+            -36.6
+          ],
+          "end": [
+            487.0,
+            0,
+            -36.6
+          ]
+        }
+      ],
+      "max_hits": 0
+    },
+    {
+      "id": "receiver_loading_port_bottom_to_top",
+      "frame": 1,
+      "objects": [
+        "R870_Receiver",
+        "R870_TriggerPlate",
+        "R870_TriggerPlateHousing"
+      ],
+      "unit": "mm",
+      "samples": [
+        {
+          "start": [
+            -30,
+            0,
+            -70
+          ],
+          "end": [
+            -30,
+            0,
+            -22
+          ]
+        },
+        {
+          "start": [
+            -10,
+            0,
+            -70
+          ],
+          "end": [
+            -10,
+            0,
+            -22
+          ]
+        },
+        {
+          "start": [
+            -30,
+            8,
+            -70
+          ],
+          "end": [
+            -30,
+            8,
+            -22
+          ]
+        },
+        {
+          "start": [
+            -10,
+            -8,
+            -70
+          ],
+          "end": [
+            -10,
+            -8,
+            -22
+          ]
+        }
+      ],
+      "max_hits": 0
+    }
+  ]
+}
