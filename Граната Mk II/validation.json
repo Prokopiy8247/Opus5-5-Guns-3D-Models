@@ -1,0 +1,280 @@
+{
+  "slug": "grenade",
+  "title": "Граната Mk II",
+  "blender": "5.2.2 LTS",
+  "files": [
+    {
+      "path": "models/Grenade_MkII_Studio_v10b_Task2.blend",
+      "source_sha256": "2718b18501fb1d9519d62895cd6187a0200a70cad82b15b6d6eb17df4774ab33",
+      "sha256": "08d42b16d907f2a3dc9148e868e90c22b617a0ee0a8b9cc8989214c92bc3683a",
+      "bytes": 526192726,
+      "geometry_signature": "6bc28cdf055c068ab649d156c2ded2aebd05f0bd3acfeae684c2a3e57eb55192",
+      "geometry_preserved": true,
+      "reopened": true,
+      "images": [
+        {
+          "name": "body_local_valley_retention_16.png",
+          "path": "textures/body_local_valley_retention_16__86c1f5b4357f9070.png",
+          "sha256": "86c1f5b4357f9070f2f2e8a6d8d042f0555f7ebfce22cdd3abbcf09b1c47f06c",
+          "bytes": 95048100,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "casting_relief_8k_16bit.png",
+          "path": "textures/casting_relief_8k_16bit__32bfe1e3284b8e70.png",
+          "sha256": "32bfe1e3284b8e7041b96abaf2788fa9b9ceb128562c1d9e37b6333293fa089a",
+          "bytes": 95150224,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "contact_breaks_8k.png",
+          "path": "textures/contact_breaks_8k__d3d34cd75e71f56d.png",
+          "sha256": "d3d34cd75e71f56d275085e5a3eafbd8b5c7e16389f9a0cc9083eb6128ebafa7",
+          "bytes": 378707,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "deposit_grains_8k.png",
+          "path": "textures/deposit_grains_8k__aa854f4e1166c194.png",
+          "sha256": "aa854f4e1166c19409b7257a0108db98584de4ef9c5d5811c5e79fae77087e9a",
+          "bytes": 1951514,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "head_local_valley_retention_16.png",
+          "path": "textures/head_local_valley_retention_16__3138c3efac89e870.png",
+          "sha256": "3138c3efac89e870651fc8815278623c2fd2ae681c7207bf087ddde8ecfd7858",
+          "bytes": 22442576,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "head_manufacturing_height_16.png",
+          "path": "textures/head_manufacturing_height_16__3d8a23320703a8c5.png",
+          "sha256": "3d8a23320703a8c5d9806f1a1deffd4190e3ca147967610984e03dd51a7c7602",
+          "bytes": 24930585,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "head_manufacturing_roughness_16.png",
+          "path": "textures/head_manufacturing_roughness_16__24c76094aa98bcd6.png",
+          "sha256": "24c76094aa98bcd610754035cc7f6f183419a62be4c881c8aef0d93756a81fc1",
+          "bytes": 24841101,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "lever_local_valley_retention_16.png",
+          "path": "textures/lever_local_valley_retention_16__fa85be85301eccc0.png",
+          "sha256": "fa85be85301eccc07e3ea8b95689703e71b60a40f0069eb13c16de45fcb6180a",
+          "bytes": 22418630,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "lever_manufacturing_height_16.png",
+          "path": "textures/lever_manufacturing_height_16__a2c3848f550cff3a.png",
+          "sha256": "a2c3848f550cff3aec3bc2cbaee84762f3c8af50e6c3819792f79c3efe5eac46",
+          "bytes": 26555185,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "lever_manufacturing_roughness_16.png",
+          "path": "textures/lever_manufacturing_roughness_16__0d0c0cba00b402ed.png",
+          "sha256": "0d0c0cba00b402ed4101ee4e86dcfabb19a2e7add1689a2639d18a4c7522f462",
+          "bytes": 26570850,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "Metal009_8K-PNG_Roughness.png",
+          "path": "textures/Metal009_8K-PNG_Roughness__a83e939a92d29078.png",
+          "sha256": "a83e939a92d290788efa9f3a72f9614feaa5b3084404dc0b4b11cb7b53eaa7a0",
+          "bytes": 25541233,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "Metal049C_8K-PNG_Color.png",
+          "path": "textures/Metal049C_8K-PNG_Color__2c65a30478417b27.png",
+          "sha256": "2c65a30478417b271b54e682f8e14c4c5d0ff8893a9542e5723150ae2c45cfbe",
+          "bytes": 48520349,
+          "colorspace": "sRGB",
+          "packed": true
+        },
+        {
+          "name": "Metal049C_8K-PNG_Roughness.png",
+          "path": "textures/Metal049C_8K-PNG_Roughness__e257a84a3f3b9cd9.png",
+          "sha256": "e257a84a3f3b9cd985a3632252adb6e7b20f472673e83dfdaabfb0b8a1bef4c8",
+          "bytes": 18985531,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "Metal063_8K-PNG_Metalness.png",
+          "path": "textures/Metal063_8K-PNG_Metalness__bcde24158edffa7f.png",
+          "sha256": "bcde24158edffa7f31c5623edc0f7a2eafd39423d398f58ead04277c2c2dd81f",
+          "bytes": 1146230,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "micro_scratches_8k.png",
+          "path": "textures/micro_scratches_8k__1227509e40072564.png",
+          "sha256": "1227509e40072564c3aca142482d794bb4fb465c8f891ad66e83368222267570",
+          "bytes": 178047,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "neck_band_8kx4k.png",
+          "path": "textures/neck_band_8kx4k__4fbffa4bf78fd8ed.png",
+          "sha256": "4fbffa4bf78fd8eda0ad5cfb717de8f83329ac80cd11b4888e228c6d94a7d30d",
+          "bytes": 36863,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "recess_angular_grit_8k.png",
+          "path": "textures/recess_angular_grit_8k__5a5eae67b81694cb.png",
+          "sha256": "5a5eae67b81694cbdffa84d009cd37895adb0aed7c45792ba74f563a6deb1d45",
+          "bytes": 7422479,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "red_neck_seal_8kx4k.png",
+          "path": "textures/red_neck_seal_8kx4k__2ebe54bedae0715f.png",
+          "sha256": "2ebe54bedae0715ff1d5e093ef0fbb69a705503985a93f92f282b68d000dd254",
+          "bytes": 32788,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "sun_slnshk_4kx2k.png",
+          "path": "textures/sun_slnshk_4kx2k__69f47d576aefd145.png",
+          "sha256": "69f47d576aefd145556c1f15083e1e3f6a1383361f9ab9bc8103beb1aecfd010",
+          "bytes": 30915,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "T_Body_BaseColor",
+          "path": "textures/T_Body_BaseColor__51606f0e37771efb.png",
+          "sha256": "51606f0e37771efbb3c473905528352f9ce5e16261e47cf888696d7afdd4e6f5",
+          "bytes": 1997101,
+          "colorspace": "sRGB",
+          "packed": true
+        },
+        {
+          "name": "T_Body_Normal",
+          "path": "textures/T_Body_Normal__3558dcba987f6486.png",
+          "sha256": "3558dcba987f6486d915de1b9a1e2bc5d00d563a120bc140b2f5f0ac9a5ad827",
+          "bytes": 2845465,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "T_Body_Roughness",
+          "path": "textures/T_Body_Roughness__2bfff424de246e98.png",
+          "sha256": "2bfff424de246e984e6f93b4a2f336d0756e6ae1ed68430dcd2a4af965928315",
+          "bytes": 790019,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "T_Fuze_BaseColor",
+          "path": "textures/T_Fuze_BaseColor__3d34a1f9cf4b0873.png",
+          "sha256": "3d34a1f9cf4b0873a64f510c451f0bc2c7483157c5bef3301e1d2209ca12a712",
+          "bytes": 757272,
+          "colorspace": "sRGB",
+          "packed": true
+        },
+        {
+          "name": "T_Fuze_Metallic-T_Fuze_Roughness",
+          "path": "textures/T_Fuze_Metallic-T_Fuze_Roughness__7323ca326c787e6a.png",
+          "sha256": "7323ca326c787e6a961ecc8eca46c12d977d012a54e7883350d9b282fdbeb593",
+          "bytes": 495737,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "T_Fuze_Normal",
+          "path": "textures/T_Fuze_Normal__d97494ab61a62385.png",
+          "sha256": "d97494ab61a62385cce3d264be3f758dc9f16b7ae769d78a8e37e6e202e77614",
+          "bytes": 1587302,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "T_Lever_BaseColor",
+          "path": "textures/T_Lever_BaseColor__40075c1882d78ea2.png",
+          "sha256": "40075c1882d78ea28c9e081489d54e48fca8a6f23e175be0e425b893763145a3",
+          "bytes": 847495,
+          "colorspace": "sRGB",
+          "packed": true
+        },
+        {
+          "name": "T_Lever_Normal",
+          "path": "textures/T_Lever_Normal__7caeb28ce576f5e3.png",
+          "sha256": "7caeb28ce576f5e3415ac6093382c1543d07c56ec1d6f8fd3cc7d41bd2a8908b",
+          "bytes": 1653246,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "T_Lever_Roughness",
+          "path": "textures/T_Lever_Roughness__d7fcd4af8cf2c13d.png",
+          "sha256": "d7fcd4af8cf2c13db907cfeec1fa3058d37f1a91ce331f46a008d17e03257300",
+          "bytes": 421181,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "T_Ring_BaseColor",
+          "path": "textures/T_Ring_BaseColor__7b5e2db8b329787d.png",
+          "sha256": "7b5e2db8b329787d0a9e9ec8acf7decbf021b5fe2ca2244d99e154188b68eb29",
+          "bytes": 272695,
+          "colorspace": "sRGB",
+          "packed": true
+        },
+        {
+          "name": "T_Ring_Roughness",
+          "path": "textures/T_Ring_Roughness__291ff7a82cc26c88.png",
+          "sha256": "291ff7a82cc26c882ef91493ed98f17241fd39109e898084c4e34b8df8f8e96f",
+          "bytes": 129602,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "wire_manufacturing_height_16.png",
+          "path": "textures/wire_manufacturing_height_16__3e5c136b08a2b232.png",
+          "sha256": "3e5c136b08a2b2322d6803f342a13d09b3ec7cb9a28b81609d6c2677159e7a5f",
+          "bytes": 12837972,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "wire_manufacturing_roughness_16.png",
+          "path": "textures/wire_manufacturing_roughness_16__4286da73acd4766e.png",
+          "sha256": "4286da73acd4766eb5c7e8e58b1e5c6b2e0452325835ac7bfa01eb8638dc3148",
+          "bytes": 13075336,
+          "colorspace": "Non-Color",
+          "packed": true
+        }
+      ],
+      "fonts": [],
+      "standard_brush_assets": [],
+      "objects": 18,
+      "meshes": 10,
+      "source_filename": "Grenade_MkII_Studio_v10b_Task2.blend"
+    }
+  ],
+  "ok": true
+}

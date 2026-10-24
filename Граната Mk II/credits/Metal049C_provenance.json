@@ -1,0 +1,74 @@
+{
+  "asset": "Metal049C",
+  "page": "https://ambientcg.com/view?id=Metal049C",
+  "license": "CC0 1.0",
+  "license_url": "https://docs.ambientcg.com/license/",
+  "technique": "PBRProcedural",
+  "archive_bytes": 549051962,
+  "archive_sha256": "1c94dd4b35e61fb5a319fb136be69dc35e1d63dcb5ab9a9dddbef3c67c2194a0",
+  "maps": [
+    {
+      "file": "Metal049C_8K-PNG_Color.png",
+      "size": [
+        8192,
+        8192
+      ],
+      "bit_depth": 8,
+      "sha256": "2c65a30478417b271b54e682f8e14c4c5d0ff8893a9542e5723150ae2c45cfbe"
+    },
+    {
+      "file": "Metal049C_8K-PNG_Displacement.png",
+      "size": [
+        8192,
+        8192
+      ],
+      "bit_depth": 16,
+      "sha256": "573f42012f08e5a75bd2476a62a63616052f370f3a941f1b848989c1e92fcb58"
+    },
+    {
+      "file": "Metal049C_8K-PNG_Metalness.png",
+      "size": [
+        8192,
+        8192
+      ],
+      "bit_depth": 8,
+      "sha256": "4d067f48969645f561d9ca04ad9f0fb9681dd4492e8702147f9b42128b190db6"
+    },
+    {
+      "file": "Metal049C_8K-PNG_NormalDX.png",
+      "size": [
+        8192,
+        8192
+      ],
+      "bit_depth": 16,
+      "sha256": "f40f5fe1eecfd2b7882b7a9e1bec81348d27c2458c7bbc4a125a1b38ff0752de"
+    },
+    {
+      "file": "Metal049C_8K-PNG_NormalGL.png",
+      "size": [
+        8192,
+        8192
+      ],
+      "bit_depth": 16,
+      "sha256": "509fef4bbeb3081d82200f31d6adecad437a3cf9dce920646733a974af58f63f"
+    },
+    {
+      "file": "Metal049C_8K-PNG_Roughness.png",
+      "size": [
+        8192,
+        8192
+      ],
+      "bit_depth": 8,
+      "sha256": "e257a84a3f3b9cd985a3632252adb6e7b20f472673e83dfdaabfb0b8a1bef4c8"
+    },
+    {
+      "file": "Metal049C.png",
+      "size": [
+        512,
+        512
+      ],
+      "bit_depth": 8,
+      "sha256": "465606ddf1e6db641bdd86d41ce583a988ec0ce223a5f94f2005266290c2dab6"
+    }
+  ]
+}

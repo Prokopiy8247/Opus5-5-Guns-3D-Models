@@ -1,0 +1,1449 @@
+{
+  "slug": "makarov_pm",
+  "title": "Пистолет Макарова / КОРС-9",
+  "blender": "5.2.2 LTS",
+  "files": [
+    {
+      "path": "models/PM_Textures_20_v04.blend",
+      "source_sha256": "f220d0cd18162d453ca1dc2dbe033d24a2ec2b837b5876d7aacdd5944d667c6b",
+      "sha256": "78b73818d063390a2cd5d1433e61f9b7f1c0634c00b6523049149f333b8de411",
+      "bytes": 214843208,
+      "geometry_signature": "25e08b4592f74a3c030d31f8440569df52d9e703cb6adf2932bf07224bb5b30a",
+      "geometry_preserved": true,
+      "reopened": true,
+      "images": [
+        {
+          "name": "1.jpg",
+          "path": "textures/1__c87cc6956131d6bb.jpg",
+          "sha256": "c87cc6956131d6bb9e9021ab1dab31e7f789698ebebf1fcb7aecc11f75dfc43e",
+          "bytes": 69995,
+          "colorspace": "sRGB",
+          "packed": true
+        },
+        {
+          "name": "codex-clipboard-197cfc49-a17c-4de5-9a13-4e54586fb6b7.png",
+          "path": "textures/codex-clipboard-197cfc49-a17c-4de5-9a13-4e54586fb6b7__3b50ec4e6a7e702c.png",
+          "sha256": "3b50ec4e6a7e702cf944d2e827bd744608183e3f6ab51aaf12482daa162f04d6",
+          "bytes": 46975,
+          "colorspace": "sRGB",
+          "packed": true
+        },
+        {
+          "name": "codex-clipboard-69fd813f-44aa-4f71-a5cb-173a8e416f9b.png",
+          "path": "textures/codex-clipboard-69fd813f-44aa-4f71-a5cb-173a8e416f9b__eda4aaac227962ab.png",
+          "sha256": "eda4aaac227962abe3d141a918aab0c338fc5aceb185d685ef6d7272a939808b",
+          "bytes": 1833901,
+          "colorspace": "sRGB",
+          "packed": true
+        },
+        {
+          "name": "codex-clipboard-9fbfe27d-bf9f-4579-8b2b-7a889509d0c7.png",
+          "path": "textures/codex-clipboard-9fbfe27d-bf9f-4579-8b2b-7a889509d0c7__a8a34f3d27cd758a.png",
+          "sha256": "a8a34f3d27cd758a9af0293e57bf5846dca5d434b5291f8aa4df18b5c3f68f0d",
+          "bytes": 420022,
+          "colorspace": "sRGB",
+          "packed": true
+        },
+        {
+          "name": "PM_20_lens_deposit",
+          "path": "textures/PM_20_lens_deposit__dfb949aa15bdffeb.png",
+          "sha256": "dfb949aa15bdffebf67f3e7d6cabb9cb9adc2d799e909e25e89c9aa10b664cfd",
+          "bytes": 98689,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_lens_fingerprints",
+          "path": "textures/PM_20_lens_fingerprints__b22412cf9ae377cb.png",
+          "sha256": "b22412cf9ae377cb9dfbbe5dd2df7a987385308d8a6e127e569daa7d0e66273c",
+          "bytes": 300304,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_lens_scratches",
+          "path": "textures/PM_20_lens_scratches__e238a06c3dcb0c80.png",
+          "sha256": "e238a06c3dcb0c80ac1f0ee6793951e547f8799730e87d5801e953df001d7c81",
+          "bytes": 98354,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_side_deposit",
+          "path": "textures/PM_20_side_deposit__3451f44acb86708e.png",
+          "sha256": "3451f44acb86708e86037c68754b5027de73742e86319b77f5bc795609b9e9e0",
+          "bytes": 797948,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_side_droplets",
+          "path": "textures/PM_20_side_droplets__7037a5fd31a8517c.png",
+          "sha256": "7037a5fd31a8517c36a5ecdc69b1a0f82fec60d3a0b1681c0bb6d8a454a3b24d",
+          "bytes": 95929,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_side_fasteners",
+          "path": "textures/PM_20_side_fasteners__dfd3caf901f0cf83.png",
+          "sha256": "dfd3caf901f0cf83d5e95a64a8a8e0e05b7e981ac4bfdb370b85e90ab9fad62b",
+          "bytes": 194499,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_side_fingerprints",
+          "path": "textures/PM_20_side_fingerprints__301ecd8e584565bc.png",
+          "sha256": "301ecd8e584565bcade462b513fe452a149fc52952f281c2c3a60fbe52238af0",
+          "bytes": 1194134,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_side_rub",
+          "path": "textures/PM_20_side_rub__da09ada6359a0842.png",
+          "sha256": "da09ada6359a08422712771fbf053328ec7e15ab45182b7796db6a89532b2772",
+          "bytes": 1547588,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_side_scratches",
+          "path": "textures/PM_20_side_scratches__4de547c50d979108.png",
+          "sha256": "4de547c50d9791088077c0ecfc46a1608e4dd1ea8e351cb577cda5869982d649",
+          "bytes": 1438213,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_side_wipes",
+          "path": "textures/PM_20_side_wipes__9811431d015d4061.png",
+          "sha256": "9811431d015d4061f7ea7679dc04f5050c2286946f0dd5db341364346f500dc1",
+          "bytes": 209714,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_top_deposit",
+          "path": "textures/PM_20_top_deposit__65afb7171cfdf91e.png",
+          "sha256": "65afb7171cfdf91ede0b49d6c384b04c7125eab39fd5779fd11d828507e1f10d",
+          "bytes": 71520,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_top_fingerprints",
+          "path": "textures/PM_20_top_fingerprints__94a543615806c7c4.png",
+          "sha256": "94a543615806c7c465d3067c2334fa740b73a374e1ac1d7b0d4df2aab8633510",
+          "bytes": 99246,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_top_wipes",
+          "path": "textures/PM_20_top_wipes__241b1dee283badf6.png",
+          "sha256": "241b1dee283badf6b195fe94c4dd1590b41834c08495fe0b547dd778eb16c050",
+          "bytes": 224369,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_fingerprints_back",
+          "path": "textures/PM_20_v02_fingerprints_back__cf708892a858604d.png",
+          "sha256": "cf708892a858604d955c0f071faef1796ff7178f343dd67b1e96c7285a678131",
+          "bytes": 1448626,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_fingerprints_side",
+          "path": "textures/PM_20_v02_fingerprints_side__94c6cb92845d92c8.png",
+          "sha256": "94c6cb92845d92c85dd00d9943aac40811f9b17fb2469e41b3881b1ca3a63491",
+          "bytes": 3402245,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_fingerprints_top",
+          "path": "textures/PM_20_v02_fingerprints_top__0e6886882525ac62.png",
+          "sha256": "0e6886882525ac624addfdb71601fe3b9807fe7901f0f4aec47270e9a18b281e",
+          "bytes": 834851,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_index_rest_side",
+          "path": "textures/PM_20_v02_index_rest_side__658239b28d2019b4.png",
+          "sha256": "658239b28d2019b4a222f655084f285e87bc7668c619670022fa82b4286ce357",
+          "bytes": 304852,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_palms_back",
+          "path": "textures/PM_20_v02_palms_back__f9915165c459b33e.png",
+          "sha256": "f9915165c459b33e9b4c7a982aa5072b983431641cba4f3fb9eac96bda0081cb",
+          "bytes": 1819733,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_palms_side",
+          "path": "textures/PM_20_v02_palms_side__0f3335ada39fe76b.png",
+          "sha256": "0f3335ada39fe76bc5f44c202c80ba6ab35e64f5d8a7b3346c0ae413f2655e0d",
+          "bytes": 2254626,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_resin_polish_side",
+          "path": "textures/PM_20_v02_resin_polish_side__d12d19a709100baf.png",
+          "sha256": "d12d19a709100bafb28060e76fd9f1dd62eff324d2633c902965754b3176cb11",
+          "bytes": 1087469,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_trigger_fingerprints_front",
+          "path": "textures/PM_20_v02_trigger_fingerprints_front__2065f884e977c35d.png",
+          "sha256": "2065f884e977c35dc55e33e694df90ff3437a1c908d07686c1ec018f073362ba",
+          "bytes": 217387,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_trigger_fingerprints_side",
+          "path": "textures/PM_20_v02_trigger_fingerprints_side__5db595937634bd38.png",
+          "sha256": "5db595937634bd38a4bce4a811addd894d185271e323524b7f7c80668f3f7960",
+          "bytes": 96213,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_wear_side",
+          "path": "textures/PM_20_v02_wear_side__ead732a682faef31.png",
+          "sha256": "ead732a682faef31f11695c2b51bf103a843f29fcb633826df051db9f8d8b4d5",
+          "bytes": 1125301,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_wear_top",
+          "path": "textures/PM_20_v02_wear_top__4a9c3eaabfc0b045.png",
+          "sha256": "4a9c3eaabfc0b0450fa6d2303af4f6844f657d8243ce94d2393fe7b57cca2df4",
+          "bytes": 733487,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v03_owner_alpha_18",
+          "path": "textures/PM_20_v03_owner_alpha_18__e2bdc23cd163ac08.png",
+          "sha256": "e2bdc23cd163ac08b17891afbcae9fa31d8639175812cacbb4492efadee251d1",
+          "bytes": 3100992,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v03_owner_alpha_21",
+          "path": "textures/PM_20_v03_owner_alpha_21__feea5c807a76e499.png",
+          "sha256": "feea5c807a76e49931bfcdfe70b9383bbb48d77fd60a9ecab4fc8ea8d4f3069d",
+          "bytes": 1985415,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v03_owner_alpha_38",
+          "path": "textures/PM_20_v03_owner_alpha_38__487f53504cfd7bf3.png",
+          "sha256": "487f53504cfd7bf3b1936b638708283474b9f055aeae6d323d07741f30a3736c",
+          "bytes": 2661849,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v03_particles_footprint",
+          "path": "textures/PM_20_v03_particles_footprint__eb2c70a95dcc4d02.png",
+          "sha256": "eb2c70a95dcc4d0271ff9609fbd34362903df043de96df392512bf90eb8b7302",
+          "bytes": 60087,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v03_particles_height",
+          "path": "textures/PM_20_v03_particles_height__657af1ef5c259b68.png",
+          "sha256": "657af1ef5c259b6882c5135650e1d83af20f1ee5921d60199b69c0ea18d54885",
+          "bytes": 331083,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v03_pits_footprint",
+          "path": "textures/PM_20_v03_pits_footprint__ad75377a2cb0dfad.png",
+          "sha256": "ad75377a2cb0dfad2fd02f34c498168ff5aab016b451d149c32af163a21544f4",
+          "bytes": 3881,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v03_pits_height",
+          "path": "textures/PM_20_v03_pits_height__d68e426b325372a8.png",
+          "sha256": "d68e426b325372a8e969006da59e2aa06f758196b6026a3d50e7b4cb7c197f72",
+          "bytes": 15186,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Грязь_пятнами_01",
+          "path": "textures/PM_20_v04_owner_____01__61a7e38fca01294c.png",
+          "sha256": "61a7e38fca01294c1657a67abb5abd8550c37cc25b0dc4bf286d98330800078b",
+          "bytes": 2992695,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Налёт_мелкими_пятнами_01",
+          "path": "textures/PM_20_v04_owner_______01__feea5c807a76e499.png",
+          "sha256": "feea5c807a76e49931bfcdfe70b9383bbb48d77fd60a9ecab4fc8ea8d4f3069d",
+          "bytes": 1985415,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Потёртости_горизонтальные_01",
+          "path": "textures/PM_20_v04_owner_____01__11f345af91005de9.png",
+          "sha256": "11f345af91005de922c1b854464b4b31a8c2923ff172b1f100dbb066c7791251",
+          "bytes": 3077342,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Сколы_пятнами_01",
+          "path": "textures/PM_20_v04_owner_____01__487f53504cfd7bf3.png",
+          "sha256": "487f53504cfd7bf3b1936b638708283474b9f055aeae6d323d07741f30a3736c",
+          "bytes": 2661849,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Сколы_с_потёртостями_01",
+          "path": "textures/PM_20_v04_owner_______01__8adbd68f835064cc.png",
+          "sha256": "8adbd68f835064cc184ba8fd4b795b36ecdab0d449a89b5b4103c9947a17715a",
+          "bytes": 2574398,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Царапины_длинные_плотные_01",
+          "path": "textures/PM_20_v04_owner_______01__ab7494189858b6de.png",
+          "sha256": "ab7494189858b6dee450758c873463a040a4ffcbf1a0ce5e4039eec2017cbf3f",
+          "bytes": 3486287,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Царапины_мелкие_01",
+          "path": "textures/PM_20_v04_owner_____01__d76d0adc0c00f468.png",
+          "sha256": "d76d0adc0c00f468081c49404b18bf274d13ed6e2e38d5b9d662396a92b3641a",
+          "bytes": 3448333,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Царапины_перекрёстные_01",
+          "path": "textures/PM_20_v04_owner_____01__471ed26de0dbacc7.png",
+          "sha256": "471ed26de0dbacc794ec1bdab1ad2e0e42f8fcd4fc72790ce4ef2606acd7d3fa",
+          "bytes": 2792735,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_safety_track_grime",
+          "path": "textures/PM_20_v04_safety_track_grime__db7cb4f22943d5d6.png",
+          "sha256": "db7cb4f22943d5d666006c251358a1ae59a94356504ca775b8b15e7f62a1e74f",
+          "bytes": 201529,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_safety_track_height",
+          "path": "textures/PM_20_v04_safety_track_height__244c77014a1e568e.png",
+          "sha256": "244c77014a1e568e811781f9df875b3ee3b03a4b34ee4752d978727c7a4d141d",
+          "bytes": 136496,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_safety_track_polish",
+          "path": "textures/PM_20_v04_safety_track_polish__f7c93d1a0f86680a.png",
+          "sha256": "f7c93d1a0f86680ac06c3a0ace63e412c26fc722f3acaba3650e137bf030779a",
+          "bytes": 109073,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "story_studio_02_4k.hdr",
+          "path": "textures/story_studio_02_4k__af05fb53ed193702.hdr",
+          "sha256": "af05fb53ed193702666bd09cbb48b00038a58c9a1003106877ba6919e9a98601",
+          "bytes": 23195679,
+          "colorspace": "Linear Rec.709",
+          "packed": true
+        },
+        {
+          "name": "референс.png",
+          "path": "textures/image__4647d8c3fd61e02c.png",
+          "sha256": "4647d8c3fd61e02c65d3236b6421b3902660613099d0c9939e5ead35b1007374",
+          "bytes": 5819499,
+          "colorspace": "sRGB",
+          "packed": true
+        }
+      ],
+      "fonts": [
+        {
+          "name": "Bahnschrift Regular",
+          "sha256": "eaad201da94cb323401fdb8cc760650803ddf8fd704cb9fa56317e6c69bc6fd6",
+          "bytes": 361564,
+          "packed": true,
+          "storage": "embedded in the .blend only"
+        }
+      ],
+      "standard_brush_assets": [],
+      "objects": 265,
+      "meshes": 156,
+      "reference_photos_removed": [
+        "942.970.webp"
+      ],
+      "source_filename": "PM_Textures_20_v04.blend"
+    },
+    {
+      "path": "models/PM_Textures_100_v02.blend",
+      "source_sha256": "41e1d593065667c8dbf11d9a633bf54dd06133255f8cef8358b5838c6a2192fd",
+      "sha256": "9c94555fb21965b3974979115910dddfa0b0911e9bcf280d788cd7932b046e4d",
+      "bytes": 213540626,
+      "geometry_signature": "f0345813c1942af1d666bc253ea80e184661d9327d2715e9402d94b3b79790d3",
+      "geometry_preserved": true,
+      "reopened": true,
+      "images": [
+        {
+          "name": "1.jpg",
+          "path": "textures/1__c87cc6956131d6bb.jpg",
+          "sha256": "c87cc6956131d6bb9e9021ab1dab31e7f789698ebebf1fcb7aecc11f75dfc43e",
+          "bytes": 69995,
+          "colorspace": "sRGB",
+          "packed": true
+        },
+        {
+          "name": "codex-clipboard-197cfc49-a17c-4de5-9a13-4e54586fb6b7.png",
+          "path": "textures/codex-clipboard-197cfc49-a17c-4de5-9a13-4e54586fb6b7__3b50ec4e6a7e702c.png",
+          "sha256": "3b50ec4e6a7e702cf944d2e827bd744608183e3f6ab51aaf12482daa162f04d6",
+          "bytes": 46975,
+          "colorspace": "sRGB",
+          "packed": true
+        },
+        {
+          "name": "codex-clipboard-69fd813f-44aa-4f71-a5cb-173a8e416f9b.png",
+          "path": "textures/codex-clipboard-69fd813f-44aa-4f71-a5cb-173a8e416f9b__eda4aaac227962ab.png",
+          "sha256": "eda4aaac227962abe3d141a918aab0c338fc5aceb185d685ef6d7272a939808b",
+          "bytes": 1833901,
+          "colorspace": "sRGB",
+          "packed": true
+        },
+        {
+          "name": "codex-clipboard-9fbfe27d-bf9f-4579-8b2b-7a889509d0c7.png",
+          "path": "textures/codex-clipboard-9fbfe27d-bf9f-4579-8b2b-7a889509d0c7__a8a34f3d27cd758a.png",
+          "sha256": "a8a34f3d27cd758a9af0293e57bf5846dca5d434b5291f8aa4df18b5c3f68f0d",
+          "bytes": 420022,
+          "colorspace": "sRGB",
+          "packed": true
+        },
+        {
+          "name": "PM_20_lens_deposit",
+          "path": "textures/PM_20_lens_deposit__dfb949aa15bdffeb.png",
+          "sha256": "dfb949aa15bdffebf67f3e7d6cabb9cb9adc2d799e909e25e89c9aa10b664cfd",
+          "bytes": 98689,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_lens_fingerprints",
+          "path": "textures/PM_20_lens_fingerprints__b22412cf9ae377cb.png",
+          "sha256": "b22412cf9ae377cb9dfbbe5dd2df7a987385308d8a6e127e569daa7d0e66273c",
+          "bytes": 300304,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_lens_scratches",
+          "path": "textures/PM_20_lens_scratches__e238a06c3dcb0c80.png",
+          "sha256": "e238a06c3dcb0c80ac1f0ee6793951e547f8799730e87d5801e953df001d7c81",
+          "bytes": 98354,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_side_deposit",
+          "path": "textures/PM_20_side_deposit__3451f44acb86708e.png",
+          "sha256": "3451f44acb86708e86037c68754b5027de73742e86319b77f5bc795609b9e9e0",
+          "bytes": 797948,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_side_droplets",
+          "path": "textures/PM_20_side_droplets__7037a5fd31a8517c.png",
+          "sha256": "7037a5fd31a8517c36a5ecdc69b1a0f82fec60d3a0b1681c0bb6d8a454a3b24d",
+          "bytes": 95929,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_side_fasteners",
+          "path": "textures/PM_20_side_fasteners__dfd3caf901f0cf83.png",
+          "sha256": "dfd3caf901f0cf83d5e95a64a8a8e0e05b7e981ac4bfdb370b85e90ab9fad62b",
+          "bytes": 194499,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_side_fingerprints",
+          "path": "textures/PM_20_side_fingerprints__301ecd8e584565bc.png",
+          "sha256": "301ecd8e584565bcade462b513fe452a149fc52952f281c2c3a60fbe52238af0",
+          "bytes": 1194134,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_side_rub",
+          "path": "textures/PM_20_side_rub__da09ada6359a0842.png",
+          "sha256": "da09ada6359a08422712771fbf053328ec7e15ab45182b7796db6a89532b2772",
+          "bytes": 1547588,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_side_scratches",
+          "path": "textures/PM_20_side_scratches__4de547c50d979108.png",
+          "sha256": "4de547c50d9791088077c0ecfc46a1608e4dd1ea8e351cb577cda5869982d649",
+          "bytes": 1438213,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_side_wipes",
+          "path": "textures/PM_20_side_wipes__9811431d015d4061.png",
+          "sha256": "9811431d015d4061f7ea7679dc04f5050c2286946f0dd5db341364346f500dc1",
+          "bytes": 209714,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_top_deposit",
+          "path": "textures/PM_20_top_deposit__65afb7171cfdf91e.png",
+          "sha256": "65afb7171cfdf91ede0b49d6c384b04c7125eab39fd5779fd11d828507e1f10d",
+          "bytes": 71520,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_top_fingerprints",
+          "path": "textures/PM_20_top_fingerprints__94a543615806c7c4.png",
+          "sha256": "94a543615806c7c465d3067c2334fa740b73a374e1ac1d7b0d4df2aab8633510",
+          "bytes": 99246,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_top_wipes",
+          "path": "textures/PM_20_top_wipes__241b1dee283badf6.png",
+          "sha256": "241b1dee283badf6b195fe94c4dd1590b41834c08495fe0b547dd778eb16c050",
+          "bytes": 224369,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_fingerprints_back",
+          "path": "textures/PM_20_v02_fingerprints_back__cf708892a858604d.png",
+          "sha256": "cf708892a858604d955c0f071faef1796ff7178f343dd67b1e96c7285a678131",
+          "bytes": 1448626,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_fingerprints_side",
+          "path": "textures/PM_20_v02_fingerprints_side__94c6cb92845d92c8.png",
+          "sha256": "94c6cb92845d92c85dd00d9943aac40811f9b17fb2469e41b3881b1ca3a63491",
+          "bytes": 3402245,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_fingerprints_top",
+          "path": "textures/PM_20_v02_fingerprints_top__0e6886882525ac62.png",
+          "sha256": "0e6886882525ac624addfdb71601fe3b9807fe7901f0f4aec47270e9a18b281e",
+          "bytes": 834851,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_index_rest_side",
+          "path": "textures/PM_20_v02_index_rest_side__658239b28d2019b4.png",
+          "sha256": "658239b28d2019b4a222f655084f285e87bc7668c619670022fa82b4286ce357",
+          "bytes": 304852,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_palms_back",
+          "path": "textures/PM_20_v02_palms_back__f9915165c459b33e.png",
+          "sha256": "f9915165c459b33e9b4c7a982aa5072b983431641cba4f3fb9eac96bda0081cb",
+          "bytes": 1819733,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_palms_side",
+          "path": "textures/PM_20_v02_palms_side__0f3335ada39fe76b.png",
+          "sha256": "0f3335ada39fe76bc5f44c202c80ba6ab35e64f5d8a7b3346c0ae413f2655e0d",
+          "bytes": 2254626,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_resin_polish_side",
+          "path": "textures/PM_20_v02_resin_polish_side__d12d19a709100baf.png",
+          "sha256": "d12d19a709100bafb28060e76fd9f1dd62eff324d2633c902965754b3176cb11",
+          "bytes": 1087469,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_trigger_fingerprints_front",
+          "path": "textures/PM_20_v02_trigger_fingerprints_front__2065f884e977c35d.png",
+          "sha256": "2065f884e977c35dc55e33e694df90ff3437a1c908d07686c1ec018f073362ba",
+          "bytes": 217387,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_trigger_fingerprints_side",
+          "path": "textures/PM_20_v02_trigger_fingerprints_side__5db595937634bd38.png",
+          "sha256": "5db595937634bd38a4bce4a811addd894d185271e323524b7f7c80668f3f7960",
+          "bytes": 96213,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_wear_side",
+          "path": "textures/PM_20_v02_wear_side__ead732a682faef31.png",
+          "sha256": "ead732a682faef31f11695c2b51bf103a843f29fcb633826df051db9f8d8b4d5",
+          "bytes": 1125301,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_wear_top",
+          "path": "textures/PM_20_v02_wear_top__4a9c3eaabfc0b045.png",
+          "sha256": "4a9c3eaabfc0b0450fa6d2303af4f6844f657d8243ce94d2393fe7b57cca2df4",
+          "bytes": 733487,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v03_owner_alpha_18",
+          "path": "textures/PM_20_v03_owner_alpha_18__e2bdc23cd163ac08.png",
+          "sha256": "e2bdc23cd163ac08b17891afbcae9fa31d8639175812cacbb4492efadee251d1",
+          "bytes": 3100992,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v03_owner_alpha_21",
+          "path": "textures/PM_20_v03_owner_alpha_21__feea5c807a76e499.png",
+          "sha256": "feea5c807a76e49931bfcdfe70b9383bbb48d77fd60a9ecab4fc8ea8d4f3069d",
+          "bytes": 1985415,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v03_owner_alpha_38",
+          "path": "textures/PM_20_v03_owner_alpha_38__487f53504cfd7bf3.png",
+          "sha256": "487f53504cfd7bf3b1936b638708283474b9f055aeae6d323d07741f30a3736c",
+          "bytes": 2661849,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v03_particles_footprint",
+          "path": "textures/PM_20_v03_particles_footprint__eb2c70a95dcc4d02.png",
+          "sha256": "eb2c70a95dcc4d0271ff9609fbd34362903df043de96df392512bf90eb8b7302",
+          "bytes": 60087,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v03_particles_height",
+          "path": "textures/PM_20_v03_particles_height__657af1ef5c259b68.png",
+          "sha256": "657af1ef5c259b6882c5135650e1d83af20f1ee5921d60199b69c0ea18d54885",
+          "bytes": 331083,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v03_pits_footprint",
+          "path": "textures/PM_20_v03_pits_footprint__ad75377a2cb0dfad.png",
+          "sha256": "ad75377a2cb0dfad2fd02f34c498168ff5aab016b451d149c32af163a21544f4",
+          "bytes": 3881,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v03_pits_height",
+          "path": "textures/PM_20_v03_pits_height__d68e426b325372a8.png",
+          "sha256": "d68e426b325372a8e969006da59e2aa06f758196b6026a3d50e7b4cb7c197f72",
+          "bytes": 15186,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Грязь_пятнами_01",
+          "path": "textures/PM_20_v04_owner_____01__61a7e38fca01294c.png",
+          "sha256": "61a7e38fca01294c1657a67abb5abd8550c37cc25b0dc4bf286d98330800078b",
+          "bytes": 2992695,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Налёт_мелкими_пятнами_01",
+          "path": "textures/PM_20_v04_owner_______01__feea5c807a76e499.png",
+          "sha256": "feea5c807a76e49931bfcdfe70b9383bbb48d77fd60a9ecab4fc8ea8d4f3069d",
+          "bytes": 1985415,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Потёртости_горизонтальные_01",
+          "path": "textures/PM_20_v04_owner_____01__11f345af91005de9.png",
+          "sha256": "11f345af91005de922c1b854464b4b31a8c2923ff172b1f100dbb066c7791251",
+          "bytes": 3077342,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Сколы_пятнами_01",
+          "path": "textures/PM_20_v04_owner_____01__487f53504cfd7bf3.png",
+          "sha256": "487f53504cfd7bf3b1936b638708283474b9f055aeae6d323d07741f30a3736c",
+          "bytes": 2661849,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Сколы_с_потёртостями_01",
+          "path": "textures/PM_20_v04_owner_______01__8adbd68f835064cc.png",
+          "sha256": "8adbd68f835064cc184ba8fd4b795b36ecdab0d449a89b5b4103c9947a17715a",
+          "bytes": 2574398,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Царапины_длинные_плотные_01",
+          "path": "textures/PM_20_v04_owner_______01__ab7494189858b6de.png",
+          "sha256": "ab7494189858b6dee450758c873463a040a4ffcbf1a0ce5e4039eec2017cbf3f",
+          "bytes": 3486287,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Царапины_мелкие_01",
+          "path": "textures/PM_20_v04_owner_____01__d76d0adc0c00f468.png",
+          "sha256": "d76d0adc0c00f468081c49404b18bf274d13ed6e2e38d5b9d662396a92b3641a",
+          "bytes": 3448333,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Царапины_перекрёстные_01",
+          "path": "textures/PM_20_v04_owner_____01__471ed26de0dbacc7.png",
+          "sha256": "471ed26de0dbacc794ec1bdab1ad2e0e42f8fcd4fc72790ce4ef2606acd7d3fa",
+          "bytes": 2792735,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_safety_track_grime",
+          "path": "textures/PM_20_v04_safety_track_grime__db7cb4f22943d5d6.png",
+          "sha256": "db7cb4f22943d5d666006c251358a1ae59a94356504ca775b8b15e7f62a1e74f",
+          "bytes": 201529,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_safety_track_height",
+          "path": "textures/PM_20_v04_safety_track_height__244c77014a1e568e.png",
+          "sha256": "244c77014a1e568e811781f9df875b3ee3b03a4b34ee4752d978727c7a4d141d",
+          "bytes": 136496,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_safety_track_polish",
+          "path": "textures/PM_20_v04_safety_track_polish__f7c93d1a0f86680a.png",
+          "sha256": "f7c93d1a0f86680ac06c3a0ace63e412c26fc722f3acaba3650e137bf030779a",
+          "bytes": 109073,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "story_studio_02_4k.hdr",
+          "path": "textures/story_studio_02_4k__af05fb53ed193702.hdr",
+          "sha256": "af05fb53ed193702666bd09cbb48b00038a58c9a1003106877ba6919e9a98601",
+          "bytes": 23195679,
+          "colorspace": "Linear Rec.709",
+          "packed": true
+        },
+        {
+          "name": "референс.png",
+          "path": "textures/image__4647d8c3fd61e02c.png",
+          "sha256": "4647d8c3fd61e02c65d3236b6421b3902660613099d0c9939e5ead35b1007374",
+          "bytes": 5819499,
+          "colorspace": "sRGB",
+          "packed": true
+        }
+      ],
+      "fonts": [
+        {
+          "name": "Bahnschrift Regular",
+          "sha256": "eaad201da94cb323401fdb8cc760650803ddf8fd704cb9fa56317e6c69bc6fd6",
+          "bytes": 361564,
+          "packed": true,
+          "storage": "embedded in the .blend only"
+        }
+      ],
+      "standard_brush_assets": [],
+      "objects": 265,
+      "meshes": 156,
+      "reference_photos_removed": [
+        "942.970.webp"
+      ],
+      "source_filename": "PM_Textures_100_v02.blend"
+    },
+    {
+      "path": "models/PM_Textures_60_v02.blend",
+      "source_sha256": "f6742165feeb6297eb7f7726a7891b2987b255a0e4ceb80e28c45f080796f164",
+      "sha256": "39f3fec021a73792e173a2f0cc9292c9ea90499d88863f06f510a71d2f42e469",
+      "bytes": 214755963,
+      "geometry_signature": "f0345813c1942af1d666bc253ea80e184661d9327d2715e9402d94b3b79790d3",
+      "geometry_preserved": true,
+      "reopened": true,
+      "images": [
+        {
+          "name": "1.jpg",
+          "path": "textures/1__c87cc6956131d6bb.jpg",
+          "sha256": "c87cc6956131d6bb9e9021ab1dab31e7f789698ebebf1fcb7aecc11f75dfc43e",
+          "bytes": 69995,
+          "colorspace": "sRGB",
+          "packed": true
+        },
+        {
+          "name": "codex-clipboard-197cfc49-a17c-4de5-9a13-4e54586fb6b7.png",
+          "path": "textures/codex-clipboard-197cfc49-a17c-4de5-9a13-4e54586fb6b7__3b50ec4e6a7e702c.png",
+          "sha256": "3b50ec4e6a7e702cf944d2e827bd744608183e3f6ab51aaf12482daa162f04d6",
+          "bytes": 46975,
+          "colorspace": "sRGB",
+          "packed": true
+        },
+        {
+          "name": "codex-clipboard-69fd813f-44aa-4f71-a5cb-173a8e416f9b.png",
+          "path": "textures/codex-clipboard-69fd813f-44aa-4f71-a5cb-173a8e416f9b__eda4aaac227962ab.png",
+          "sha256": "eda4aaac227962abe3d141a918aab0c338fc5aceb185d685ef6d7272a939808b",
+          "bytes": 1833901,
+          "colorspace": "sRGB",
+          "packed": true
+        },
+        {
+          "name": "codex-clipboard-9fbfe27d-bf9f-4579-8b2b-7a889509d0c7.png",
+          "path": "textures/codex-clipboard-9fbfe27d-bf9f-4579-8b2b-7a889509d0c7__a8a34f3d27cd758a.png",
+          "sha256": "a8a34f3d27cd758a9af0293e57bf5846dca5d434b5291f8aa4df18b5c3f68f0d",
+          "bytes": 420022,
+          "colorspace": "sRGB",
+          "packed": true
+        },
+        {
+          "name": "PM_20_lens_deposit",
+          "path": "textures/PM_20_lens_deposit__dfb949aa15bdffeb.png",
+          "sha256": "dfb949aa15bdffebf67f3e7d6cabb9cb9adc2d799e909e25e89c9aa10b664cfd",
+          "bytes": 98689,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_lens_fingerprints",
+          "path": "textures/PM_20_lens_fingerprints__b22412cf9ae377cb.png",
+          "sha256": "b22412cf9ae377cb9dfbbe5dd2df7a987385308d8a6e127e569daa7d0e66273c",
+          "bytes": 300304,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_lens_scratches",
+          "path": "textures/PM_20_lens_scratches__e238a06c3dcb0c80.png",
+          "sha256": "e238a06c3dcb0c80ac1f0ee6793951e547f8799730e87d5801e953df001d7c81",
+          "bytes": 98354,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_side_deposit",
+          "path": "textures/PM_20_side_deposit__3451f44acb86708e.png",
+          "sha256": "3451f44acb86708e86037c68754b5027de73742e86319b77f5bc795609b9e9e0",
+          "bytes": 797948,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_side_droplets",
+          "path": "textures/PM_20_side_droplets__7037a5fd31a8517c.png",
+          "sha256": "7037a5fd31a8517c36a5ecdc69b1a0f82fec60d3a0b1681c0bb6d8a454a3b24d",
+          "bytes": 95929,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_side_fasteners",
+          "path": "textures/PM_20_side_fasteners__dfd3caf901f0cf83.png",
+          "sha256": "dfd3caf901f0cf83d5e95a64a8a8e0e05b7e981ac4bfdb370b85e90ab9fad62b",
+          "bytes": 194499,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_side_fingerprints",
+          "path": "textures/PM_20_side_fingerprints__301ecd8e584565bc.png",
+          "sha256": "301ecd8e584565bcade462b513fe452a149fc52952f281c2c3a60fbe52238af0",
+          "bytes": 1194134,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_side_rub",
+          "path": "textures/PM_20_side_rub__da09ada6359a0842.png",
+          "sha256": "da09ada6359a08422712771fbf053328ec7e15ab45182b7796db6a89532b2772",
+          "bytes": 1547588,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_side_scratches",
+          "path": "textures/PM_20_side_scratches__4de547c50d979108.png",
+          "sha256": "4de547c50d9791088077c0ecfc46a1608e4dd1ea8e351cb577cda5869982d649",
+          "bytes": 1438213,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_side_wipes",
+          "path": "textures/PM_20_side_wipes__9811431d015d4061.png",
+          "sha256": "9811431d015d4061f7ea7679dc04f5050c2286946f0dd5db341364346f500dc1",
+          "bytes": 209714,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_top_deposit",
+          "path": "textures/PM_20_top_deposit__65afb7171cfdf91e.png",
+          "sha256": "65afb7171cfdf91ede0b49d6c384b04c7125eab39fd5779fd11d828507e1f10d",
+          "bytes": 71520,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_top_fingerprints",
+          "path": "textures/PM_20_top_fingerprints__94a543615806c7c4.png",
+          "sha256": "94a543615806c7c465d3067c2334fa740b73a374e1ac1d7b0d4df2aab8633510",
+          "bytes": 99246,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_top_wipes",
+          "path": "textures/PM_20_top_wipes__241b1dee283badf6.png",
+          "sha256": "241b1dee283badf6b195fe94c4dd1590b41834c08495fe0b547dd778eb16c050",
+          "bytes": 224369,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_fingerprints_back",
+          "path": "textures/PM_20_v02_fingerprints_back__cf708892a858604d.png",
+          "sha256": "cf708892a858604d955c0f071faef1796ff7178f343dd67b1e96c7285a678131",
+          "bytes": 1448626,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_fingerprints_side",
+          "path": "textures/PM_20_v02_fingerprints_side__94c6cb92845d92c8.png",
+          "sha256": "94c6cb92845d92c85dd00d9943aac40811f9b17fb2469e41b3881b1ca3a63491",
+          "bytes": 3402245,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_fingerprints_top",
+          "path": "textures/PM_20_v02_fingerprints_top__0e6886882525ac62.png",
+          "sha256": "0e6886882525ac624addfdb71601fe3b9807fe7901f0f4aec47270e9a18b281e",
+          "bytes": 834851,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_index_rest_side",
+          "path": "textures/PM_20_v02_index_rest_side__658239b28d2019b4.png",
+          "sha256": "658239b28d2019b4a222f655084f285e87bc7668c619670022fa82b4286ce357",
+          "bytes": 304852,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_palms_back",
+          "path": "textures/PM_20_v02_palms_back__f9915165c459b33e.png",
+          "sha256": "f9915165c459b33e9b4c7a982aa5072b983431641cba4f3fb9eac96bda0081cb",
+          "bytes": 1819733,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_palms_side",
+          "path": "textures/PM_20_v02_palms_side__0f3335ada39fe76b.png",
+          "sha256": "0f3335ada39fe76bc5f44c202c80ba6ab35e64f5d8a7b3346c0ae413f2655e0d",
+          "bytes": 2254626,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_resin_polish_side",
+          "path": "textures/PM_20_v02_resin_polish_side__d12d19a709100baf.png",
+          "sha256": "d12d19a709100bafb28060e76fd9f1dd62eff324d2633c902965754b3176cb11",
+          "bytes": 1087469,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_trigger_fingerprints_front",
+          "path": "textures/PM_20_v02_trigger_fingerprints_front__2065f884e977c35d.png",
+          "sha256": "2065f884e977c35dc55e33e694df90ff3437a1c908d07686c1ec018f073362ba",
+          "bytes": 217387,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_trigger_fingerprints_side",
+          "path": "textures/PM_20_v02_trigger_fingerprints_side__5db595937634bd38.png",
+          "sha256": "5db595937634bd38a4bce4a811addd894d185271e323524b7f7c80668f3f7960",
+          "bytes": 96213,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_wear_side",
+          "path": "textures/PM_20_v02_wear_side__ead732a682faef31.png",
+          "sha256": "ead732a682faef31f11695c2b51bf103a843f29fcb633826df051db9f8d8b4d5",
+          "bytes": 1125301,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v02_wear_top",
+          "path": "textures/PM_20_v02_wear_top__4a9c3eaabfc0b045.png",
+          "sha256": "4a9c3eaabfc0b0450fa6d2303af4f6844f657d8243ce94d2393fe7b57cca2df4",
+          "bytes": 733487,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v03_owner_alpha_18",
+          "path": "textures/PM_20_v03_owner_alpha_18__e2bdc23cd163ac08.png",
+          "sha256": "e2bdc23cd163ac08b17891afbcae9fa31d8639175812cacbb4492efadee251d1",
+          "bytes": 3100992,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v03_owner_alpha_21",
+          "path": "textures/PM_20_v03_owner_alpha_21__feea5c807a76e499.png",
+          "sha256": "feea5c807a76e49931bfcdfe70b9383bbb48d77fd60a9ecab4fc8ea8d4f3069d",
+          "bytes": 1985415,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v03_owner_alpha_38",
+          "path": "textures/PM_20_v03_owner_alpha_38__487f53504cfd7bf3.png",
+          "sha256": "487f53504cfd7bf3b1936b638708283474b9f055aeae6d323d07741f30a3736c",
+          "bytes": 2661849,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v03_particles_footprint",
+          "path": "textures/PM_20_v03_particles_footprint__eb2c70a95dcc4d02.png",
+          "sha256": "eb2c70a95dcc4d0271ff9609fbd34362903df043de96df392512bf90eb8b7302",
+          "bytes": 60087,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v03_particles_height",
+          "path": "textures/PM_20_v03_particles_height__657af1ef5c259b68.png",
+          "sha256": "657af1ef5c259b6882c5135650e1d83af20f1ee5921d60199b69c0ea18d54885",
+          "bytes": 331083,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v03_pits_footprint",
+          "path": "textures/PM_20_v03_pits_footprint__ad75377a2cb0dfad.png",
+          "sha256": "ad75377a2cb0dfad2fd02f34c498168ff5aab016b451d149c32af163a21544f4",
+          "bytes": 3881,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v03_pits_height",
+          "path": "textures/PM_20_v03_pits_height__d68e426b325372a8.png",
+          "sha256": "d68e426b325372a8e969006da59e2aa06f758196b6026a3d50e7b4cb7c197f72",
+          "bytes": 15186,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Грязь_пятнами_01",
+          "path": "textures/PM_20_v04_owner_____01__61a7e38fca01294c.png",
+          "sha256": "61a7e38fca01294c1657a67abb5abd8550c37cc25b0dc4bf286d98330800078b",
+          "bytes": 2992695,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Налёт_мелкими_пятнами_01",
+          "path": "textures/PM_20_v04_owner_______01__feea5c807a76e499.png",
+          "sha256": "feea5c807a76e49931bfcdfe70b9383bbb48d77fd60a9ecab4fc8ea8d4f3069d",
+          "bytes": 1985415,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Потёртости_горизонтальные_01",
+          "path": "textures/PM_20_v04_owner_____01__11f345af91005de9.png",
+          "sha256": "11f345af91005de922c1b854464b4b31a8c2923ff172b1f100dbb066c7791251",
+          "bytes": 3077342,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Сколы_пятнами_01",
+          "path": "textures/PM_20_v04_owner_____01__487f53504cfd7bf3.png",
+          "sha256": "487f53504cfd7bf3b1936b638708283474b9f055aeae6d323d07741f30a3736c",
+          "bytes": 2661849,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Сколы_с_потёртостями_01",
+          "path": "textures/PM_20_v04_owner_______01__8adbd68f835064cc.png",
+          "sha256": "8adbd68f835064cc184ba8fd4b795b36ecdab0d449a89b5b4103c9947a17715a",
+          "bytes": 2574398,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Царапины_длинные_плотные_01",
+          "path": "textures/PM_20_v04_owner_______01__ab7494189858b6de.png",
+          "sha256": "ab7494189858b6dee450758c873463a040a4ffcbf1a0ce5e4039eec2017cbf3f",
+          "bytes": 3486287,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Царапины_мелкие_01",
+          "path": "textures/PM_20_v04_owner_____01__d76d0adc0c00f468.png",
+          "sha256": "d76d0adc0c00f468081c49404b18bf274d13ed6e2e38d5b9d662396a92b3641a",
+          "bytes": 3448333,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_owner_Царапины_перекрёстные_01",
+          "path": "textures/PM_20_v04_owner_____01__471ed26de0dbacc7.png",
+          "sha256": "471ed26de0dbacc794ec1bdab1ad2e0e42f8fcd4fc72790ce4ef2606acd7d3fa",
+          "bytes": 2792735,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_safety_track_grime",
+          "path": "textures/PM_20_v04_safety_track_grime__db7cb4f22943d5d6.png",
+          "sha256": "db7cb4f22943d5d666006c251358a1ae59a94356504ca775b8b15e7f62a1e74f",
+          "bytes": 201529,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_safety_track_height",
+          "path": "textures/PM_20_v04_safety_track_height__244c77014a1e568e.png",
+          "sha256": "244c77014a1e568e811781f9df875b3ee3b03a4b34ee4752d978727c7a4d141d",
+          "bytes": 136496,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_20_v04_safety_track_polish",
+          "path": "textures/PM_20_v04_safety_track_polish__f7c93d1a0f86680a.png",
+          "sha256": "f7c93d1a0f86680ac06c3a0ace63e412c26fc722f3acaba3650e137bf030779a",
+          "bytes": 109073,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "story_studio_02_4k.hdr",
+          "path": "textures/story_studio_02_4k__af05fb53ed193702.hdr",
+          "sha256": "af05fb53ed193702666bd09cbb48b00038a58c9a1003106877ba6919e9a98601",
+          "bytes": 23195679,
+          "colorspace": "Linear Rec.709",
+          "packed": true
+        },
+        {
+          "name": "референс.png",
+          "path": "textures/image__4647d8c3fd61e02c.png",
+          "sha256": "4647d8c3fd61e02c65d3236b6421b3902660613099d0c9939e5ead35b1007374",
+          "bytes": 5819499,
+          "colorspace": "sRGB",
+          "packed": true
+        }
+      ],
+      "fonts": [
+        {
+          "name": "Bahnschrift Regular",
+          "sha256": "eaad201da94cb323401fdb8cc760650803ddf8fd704cb9fa56317e6c69bc6fd6",
+          "bytes": 361564,
+          "packed": true,
+          "storage": "embedded in the .blend only"
+        }
+      ],
+      "standard_brush_assets": [],
+      "objects": 265,
+      "meshes": 156,
+      "reference_photos_removed": [
+        "942.970.webp"
+      ],
+      "source_filename": "PM_Textures_60_v02.blend"
+    },
+    {
+      "path": "models/magazine_empty_60_v02.blend",
+      "source_sha256": "05e30dffc84e29b163d463078ccc79ab527ecc91c3f78c1a9122bb7cbe9a4d39",
+      "sha256": "7f454d5fe17d7fcd59d7d84e69d4478a4d1b80ba4ce162cd5aad522626a5750e",
+      "bytes": 15075217,
+      "geometry_signature": "5e09e129f53ce25016603b2210dac0489d486f747fa4fc02aaa1e956e4b0e15c",
+      "geometry_preserved": true,
+      "reopened": true,
+      "images": [
+        {
+          "name": "PM_mag60_owner_Грязь_пятнами_01",
+          "path": "textures/PM_mag60_owner_____01__61a7e38fca01294c.png",
+          "sha256": "61a7e38fca01294c1657a67abb5abd8550c37cc25b0dc4bf286d98330800078b",
+          "bytes": 2992695,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_mag60_owner_Отпечаток_смазанный_вниз_01",
+          "path": "textures/PM_mag60_owner_______01__5014593f786e2bca.png",
+          "sha256": "5014593f786e2bca44a2c47a8e9e5204de6bd6da20e0721417c053ed189c227a",
+          "bytes": 1965776,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_mag60_owner_Сколы_с_потёртостями_01",
+          "path": "textures/PM_mag60_owner_______01__8adbd68f835064cc.png",
+          "sha256": "8adbd68f835064cc184ba8fd4b795b36ecdab0d449a89b5b4103c9947a17715a",
+          "bytes": 2574398,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_mag60_owner_Царапины_длинные_плотные_01",
+          "path": "textures/PM_mag60_owner_______01__ab7494189858b6de.png",
+          "sha256": "ab7494189858b6dee450758c873463a040a4ffcbf1a0ce5e4039eec2017cbf3f",
+          "bytes": 3486287,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_mag60_owner_Царапины_мелкие_01",
+          "path": "textures/PM_mag60_owner_____01__d76d0adc0c00f468.png",
+          "sha256": "d76d0adc0c00f468081c49404b18bf274d13ed6e2e38d5b9d662396a92b3641a",
+          "bytes": 3448333,
+          "colorspace": "Non-Color",
+          "packed": true
+        }
+      ],
+      "fonts": [],
+      "standard_brush_assets": [],
+      "objects": 12,
+      "meshes": 7,
+      "source_filename": "magazine_empty_60_v02.blend"
+    },
+    {
+      "path": "models/magazine_loaded_60_v02.blend",
+      "source_sha256": "ff60fa88e787c76338e5009426ce1c4a37eb64d8fcce7c8ac014d426127d7953",
+      "sha256": "9479fbf693c01947033c0c3b656fb7a0e77bb39ce3c0812758cfa182e3c08f7a",
+      "bytes": 19149730,
+      "geometry_signature": "20b056e3bd3a38bea59ab4c102d7ed524061bb81f2458628d64aedb9c7b0943d",
+      "geometry_preserved": true,
+      "reopened": true,
+      "images": [
+        {
+          "name": "PM_mag60_owner_Грязь_пятнами_01",
+          "path": "textures/PM_mag60_owner_____01__61a7e38fca01294c.png",
+          "sha256": "61a7e38fca01294c1657a67abb5abd8550c37cc25b0dc4bf286d98330800078b",
+          "bytes": 2992695,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_mag60_owner_Налёт_мелкими_пятнами_01",
+          "path": "textures/PM_mag60_owner_______01__feea5c807a76e499.png",
+          "sha256": "feea5c807a76e49931bfcdfe70b9383bbb48d77fd60a9ecab4fc8ea8d4f3069d",
+          "bytes": 1985415,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_mag60_owner_Отпечаток_грязный_02",
+          "path": "textures/PM_mag60_owner_____02__c030619d8d134a28.png",
+          "sha256": "c030619d8d134a289df2c5f45556c505ebcb0d98d7be07f4d4ca9d708da05d17",
+          "bytes": 1929087,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_mag60_owner_Отпечаток_смазанный_вниз_01",
+          "path": "textures/PM_mag60_owner_______01__5014593f786e2bca.png",
+          "sha256": "5014593f786e2bca44a2c47a8e9e5204de6bd6da20e0721417c053ed189c227a",
+          "bytes": 1965776,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_mag60_owner_Сколы_с_потёртостями_01",
+          "path": "textures/PM_mag60_owner_______01__8adbd68f835064cc.png",
+          "sha256": "8adbd68f835064cc184ba8fd4b795b36ecdab0d449a89b5b4103c9947a17715a",
+          "bytes": 2574398,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_mag60_owner_Царапины_длинные_плотные_01",
+          "path": "textures/PM_mag60_owner_______01__ab7494189858b6de.png",
+          "sha256": "ab7494189858b6dee450758c873463a040a4ffcbf1a0ce5e4039eec2017cbf3f",
+          "bytes": 3486287,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_mag60_owner_Царапины_мелкие_01",
+          "path": "textures/PM_mag60_owner_____01__d76d0adc0c00f468.png",
+          "sha256": "d76d0adc0c00f468081c49404b18bf274d13ed6e2e38d5b9d662396a92b3641a",
+          "bytes": 3448333,
+          "colorspace": "Non-Color",
+          "packed": true
+        }
+      ],
+      "fonts": [],
+      "standard_brush_assets": [],
+      "objects": 44,
+      "meshes": 10,
+      "source_filename": "magazine_loaded_60_v02.blend"
+    },
+    {
+      "path": "models/cartridge_60_v01.blend",
+      "source_sha256": "6cc45b6db4b3c7ae6b10844d084f9b3061604837afa30308105b7d623cb4b556",
+      "sha256": "6dd4c7e6ccd859a5fa740b49e54aef6f2060e5094262a9f75fad341eb148da08",
+      "bytes": 7566868,
+      "geometry_signature": "af65854b017170b59edc36cfc83383dadb4cb03d8e0166a26bf77b476b89ebeb",
+      "geometry_preserved": true,
+      "reopened": true,
+      "images": [
+        {
+          "name": "PM_mag60_owner_Налёт_мелкими_пятнами_01",
+          "path": "textures/PM_mag60_owner_______01__feea5c807a76e499.png",
+          "sha256": "feea5c807a76e49931bfcdfe70b9383bbb48d77fd60a9ecab4fc8ea8d4f3069d",
+          "bytes": 1985415,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_mag60_owner_Отпечаток_грязный_02",
+          "path": "textures/PM_mag60_owner_____02__c030619d8d134a28.png",
+          "sha256": "c030619d8d134a289df2c5f45556c505ebcb0d98d7be07f4d4ca9d708da05d17",
+          "bytes": 1929087,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_mag60_owner_Царапины_мелкие_01",
+          "path": "textures/PM_mag60_owner_____01__d76d0adc0c00f468.png",
+          "sha256": "d76d0adc0c00f468081c49404b18bf274d13ed6e2e38d5b9d662396a92b3641a",
+          "bytes": 3448333,
+          "colorspace": "Non-Color",
+          "packed": true
+        }
+      ],
+      "fonts": [],
+      "standard_brush_assets": [],
+      "objects": 8,
+      "meshes": 3,
+      "source_filename": "cartridge_60_v01.blend"
+    },
+    {
+      "path": "models/suppressor_60_v01.blend",
+      "source_sha256": "ee1b2eb830b104d837205a36a46176889e226593635faebd22ea2f205da1cb5b",
+      "sha256": "c4c3dc6f93421ab0fffa19d48941b0999516df49b80b1a5bda8966f9102bd34d",
+      "bytes": 10110731,
+      "geometry_signature": "4fd8a009a1ddca8aaafea1ccc110e43bb26d179cbf27562cb91278d75a115b55",
+      "geometry_preserved": true,
+      "reopened": true,
+      "images": [
+        {
+          "name": "PM_mag60_owner_Отпечаток_смазанный_вправо_01",
+          "path": "textures/PM_mag60_owner_______01__c86b5f0f0aab9e28.png",
+          "sha256": "c86b5f0f0aab9e2895085669caa5836af28711030df76946f562a8fb52f0a6b3",
+          "bytes": 2229956,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_mag60_owner_Сколы_с_потёртостями_01",
+          "path": "textures/PM_mag60_owner_______01__8adbd68f835064cc.png",
+          "sha256": "8adbd68f835064cc184ba8fd4b795b36ecdab0d449a89b5b4103c9947a17715a",
+          "bytes": 2574398,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "PM_mag60_owner_Царапины_мелкие_01",
+          "path": "textures/PM_mag60_owner_____01__d76d0adc0c00f468.png",
+          "sha256": "d76d0adc0c00f468081c49404b18bf274d13ed6e2e38d5b9d662396a92b3641a",
+          "bytes": 3448333,
+          "colorspace": "Non-Color",
+          "packed": true
+        }
+      ],
+      "fonts": [],
+      "standard_brush_assets": [],
+      "objects": 15,
+      "meshes": 10,
+      "source_filename": "suppressor_60_v01.blend"
+    }
+  ],
+  "ok": true
+}

@@ -1,0 +1,243 @@
+{
+  "slug": "glock17",
+  "title": "Glock 17 Gen5",
+  "blender": "5.2.2 LTS",
+  "files": [
+    {
+      "path": "models/Glock17_Gen5_итог_v7.blend",
+      "source_sha256": "1d630e2f7f3244600cad99cfa636a2333a4aeae132f0ec78c217e81089dbb962",
+      "sha256": "d65f4487e2fd0dcd66625a6db8a22d483a8854ca963e3dcdc8a4609180f4f3b7",
+      "bytes": 10005407,
+      "geometry_signature": "f3579f1fea69122d5be20bc1e900a0ec168bfa3a937459e6b2fa42a6d22d3f4e",
+      "geometry_preserved": true,
+      "reopened": true,
+      "images": [
+        {
+          "name": "Glock17_Metal_BaseColor.png",
+          "path": "textures/Glock17_Metal_BaseColor__9ff8433de9f27d46.png",
+          "sha256": "9ff8433de9f27d46e31b6e736bcd0c97852175ab5c4160c3cd49e245611a3be8",
+          "bytes": 1251425,
+          "colorspace": "sRGB",
+          "packed": true
+        },
+        {
+          "name": "Glock17_Metal_Normal.png",
+          "path": "textures/Glock17_Metal_Normal__641fa365c621e6af.png",
+          "sha256": "641fa365c621e6af26fd6d6786b5c727467287f696f8b5d2358bf67123150451",
+          "bytes": 977846,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "Glock17_Metal_ORM.png",
+          "path": "textures/Glock17_Metal_ORM__717f199fefd9bac8.png",
+          "sha256": "717f199fefd9bac817157b7732651c33ad6d1aa7814b1db5481c759049c672d1",
+          "bytes": 3000276,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "Glock17_Polymer_BaseColor.png",
+          "path": "textures/Glock17_Polymer_BaseColor__8ef975c43b021d59.png",
+          "sha256": "8ef975c43b021d594614212cc9a845214050d0afb33f0336c1df556c9616c274",
+          "bytes": 882302,
+          "colorspace": "sRGB",
+          "packed": true
+        },
+        {
+          "name": "Glock17_Polymer_Normal.png",
+          "path": "textures/Glock17_Polymer_Normal__10a2df889a0b3253.png",
+          "sha256": "10a2df889a0b3253b81ab6c6739dc4a74c1b8acd93423283ea6dbd0b97ffeb40",
+          "bytes": 1085623,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "Glock17_Polymer_ORM.png",
+          "path": "textures/Glock17_Polymer_ORM__edfe7640917cb56f.png",
+          "sha256": "edfe7640917cb56fff402b9b528e80fa459523e91df31fc489bb4ad4f10331e3",
+          "bytes": 2069971,
+          "colorspace": "Non-Color",
+          "packed": true
+        }
+      ],
+      "fonts": [],
+      "standard_brush_assets": [],
+      "objects": 29,
+      "meshes": 27,
+      "source_filename": "Glock17_Gen5_итог_v7.blend"
+    },
+    {
+      "path": "models/Glock17_Gen5_покраска_v7.blend",
+      "source_sha256": "40b1d44ae79df63ad5837b3c34c77e06d6e6706735a278915a80e945bf497c77",
+      "sha256": "5823b17bbd92096de7163fb0fc8dc17c3f9ed0072ff327a18e6e4d6bb342f4b2",
+      "bytes": 52745919,
+      "geometry_signature": "b85251becff31d20d106be0c406c9eacc6c9ef2413c062311d7d2e5251855a48",
+      "geometry_preserved": true,
+      "reopened": true,
+      "images": [
+        {
+          "name": "Glock17_Металл_впадины.png",
+          "path": "textures/Glock17__2da697ef02e1c525.png",
+          "sha256": "2da697ef02e1c525b469c7590d6d406a1f8966165e6e851d3a1174b2f3d6a661",
+          "bytes": 344521,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "Glock17_Металл_кромки.png",
+          "path": "textures/Glock17__21e80bea62194f69.png",
+          "sha256": "21e80bea62194f694a979592696dcd6f86e3f15ec1804724ecd25ce49a8b876e",
+          "bytes": 923859,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "Glock17_Полимер_впадины.png",
+          "path": "textures/Glock17__d24cc23b9e6b4b53.png",
+          "sha256": "d24cc23b9e6b4b534897d0fb2849b215071e438f7291335671f963e54dc5485f",
+          "bytes": 930769,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "Glock17_Полимер_кромки.png",
+          "path": "textures/Glock17__6ff0e9f28e27f72e.png",
+          "sha256": "6ff0e9f28e27f72ea4bcf1503dd921cfca3bf7917503bc2c2a529aaebcafa934",
+          "bytes": 2283169,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "Запечённые нормали — металл (не трогать)",
+          "path": "textures/image__9ee7548e9232a1df.png",
+          "sha256": "9ee7548e9232a1dfbc7bb13b930ba1ffa405c52f4c201c59e13eba31dbba546b",
+          "bytes": 18466967,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "Запечённые нормали — полимер (не трогать)",
+          "path": "textures/image__c9f9c9898597a400.png",
+          "sha256": "c9f9c9898597a4000b6ca9a4bf5479b9f85ece993e7e9ea5dd92aeead4a0b058",
+          "bytes": 18039446,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "Запечённый AO — металл (не трогать)",
+          "path": "textures/AO__07ccc9112aa2012d.png",
+          "sha256": "07ccc9112aa2012da9066ddd4a6189d0a886b6b41cf389429ebdac753b5ce64a",
+          "bytes": 5016066,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "Запечённый AO — полимер (не трогать)",
+          "path": "textures/AO__fa2ed4b068f0a1be.png",
+          "sha256": "fa2ed4b068f0a1beec03d6d0ceb0eb5c64df5908f57a2dcbd5e48abe78f26c2d",
+          "bytes": 4654126,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "Кисть — захватанность (шероховатость) — маска кисти (Полимер)",
+          "path": "textures/image__43f5ebb8299c374b.png",
+          "sha256": "43f5ebb8299c374bbe78826692db115fbf4363a1e6eaefb2388ccdab98f5a596",
+          "bytes": 268852,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "Кисть — отпечатки и масло (шероховатость) — маска кисти (Металл)",
+          "reconstructible_blank": true,
+          "packed": false,
+          "size": [
+            4096,
+            4096
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "name": "Кисть — потёртости до стали — маска кисти (Металл)",
+          "path": "textures/image__ec11623e8636cffd.png",
+          "sha256": "ec11623e8636cffd91af6b2e6f55f5e2b95ae8af5b7942f39c20a3494e0ea372",
+          "bytes": 878087,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "Кисть — потёртости — маска кисти (Полимер)",
+          "path": "textures/image__fdcc902318a3f8b4.png",
+          "sha256": "fdcc902318a3f8b4d12f30950fad2b12c6d4fd16b593eeecbfca1d2d68c2b0f8",
+          "bytes": 1225945,
+          "colorspace": "Non-Color",
+          "packed": true
+        }
+      ],
+      "fonts": [],
+      "standard_brush_assets": [
+        {
+          "name": "Airbrush",
+          "library": "essentials_brushes-mesh_texture.blend",
+          "users": 0,
+          "role": "unused standard brush supplied with Blender; no model data linked"
+        }
+      ],
+      "objects": 2,
+      "meshes": 2,
+      "source_filename": "Glock17_Gen5_покраска_v7.blend"
+    },
+    {
+      "path": "models/Glock17_Gen5_high_v7.blend",
+      "source_sha256": "3170d9c64b291d497f4ad26658940b794f393685b8766ce1d4f68208a6bdd027",
+      "sha256": "afbc6cc6b0f79d84bb49898dc94b316b2e7dbca50aebf087deb6f4939a393124",
+      "bytes": 918271,
+      "geometry_signature": "7ee317f34b4b17a07c9e009d3e77a9214dd38c9835e735c33bfad9097c14d278",
+      "geometry_preserved": true,
+      "reopened": true,
+      "images": [],
+      "fonts": [],
+      "standard_brush_assets": [
+        {
+          "name": "Airbrush",
+          "library": "essentials_brushes-mesh_texture.blend",
+          "users": 0,
+          "role": "unused standard brush supplied with Blender; no model data linked"
+        }
+      ],
+      "objects": 29,
+      "meshes": 27,
+      "source_filename": "Glock17_Gen5_high_v7.blend"
+    },
+    {
+      "path": "models/Магазин_G17_пустой_и_снаряжённый_v1.blend",
+      "source_sha256": "76257a7b6475f189a028797d94b90cf15a91f45f3f346bb13d4d8c9976644962",
+      "sha256": "be150303ee546e4d5a31c444ab3258c8ad495b55d7de46d7da3fdfca316ddc76",
+      "bytes": 261493,
+      "geometry_signature": "2b2647405dcb3da760290a3a89e969361ffd47c682859dd7887fcfc13c0abcf7",
+      "geometry_preserved": true,
+      "reopened": true,
+      "images": [],
+      "fonts": [],
+      "standard_brush_assets": [
+        {
+          "name": "Airbrush",
+          "library": "essentials_brushes-mesh_texture.blend",
+          "users": 0,
+          "role": "unused standard brush supplied with Blender; no model data linked"
+        }
+      ],
+      "objects": 46,
+      "meshes": 8,
+      "source_filename": "Магазин_G17_пустой_и_снаряжённый_v1.blend"
+    }
+  ],
+  "ok": true
+}

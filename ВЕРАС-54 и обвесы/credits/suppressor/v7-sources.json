@@ -1,0 +1,65 @@
+[
+  {
+    "asset": "blue_metal_plate",
+    "channel": "Diffuse",
+    "path": "blue_metal_plate\\blue_metal_plate_diff_4k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/blue_metal_plate/blue_metal_plate_diff_4k.jpg",
+    "md5": "50d428a4c90d0c1a158e7b9d6521d624",
+    "source": "https://polyhaven.com/a/blue_metal_plate",
+    "license": "CC0-1.0"
+  },
+  {
+    "asset": "blue_metal_plate",
+    "channel": "Rough",
+    "path": "blue_metal_plate\\blue_metal_plate_rough_4k.png",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/4k/blue_metal_plate/blue_metal_plate_rough_4k.png",
+    "md5": "f61f4de4ca0ef7341587259ed39e1c71",
+    "source": "https://polyhaven.com/a/blue_metal_plate",
+    "license": "CC0-1.0"
+  },
+  {
+    "asset": "blue_metal_plate",
+    "channel": "nor_gl",
+    "path": "blue_metal_plate\\blue_metal_plate_nor_gl_4k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/blue_metal_plate/blue_metal_plate_nor_gl_4k.jpg",
+    "md5": "c4c373600e42e664267c6abcef15a90a",
+    "source": "https://polyhaven.com/a/blue_metal_plate",
+    "license": "CC0-1.0"
+  },
+  {
+    "asset": "rubber_tiles",
+    "channel": "Diffuse",
+    "path": "rubber_tiles\\rubber_tiles_diff_4k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/rubber_tiles/rubber_tiles_diff_4k.jpg",
+    "md5": "d8c328b7b89bf14bd019f7a275d4eb27",
+    "source": "https://polyhaven.com/a/rubber_tiles",
+    "license": "CC0-1.0"
+  },
+  {
+    "asset": "rubber_tiles",
+    "channel": "Rough",
+    "path": "rubber_tiles\\rubber_tiles_rough_4k.png",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/4k/rubber_tiles/rubber_tiles_rough_4k.png",
+    "md5": "9fa3a3da67a1ee5ae11b6a02aee18dac",
+    "source": "https://polyhaven.com/a/rubber_tiles",
+    "license": "CC0-1.0"
+  },
+  {
+    "asset": "rubber_tiles",
+    "channel": "nor_gl",
+    "path": "rubber_tiles\\rubber_tiles_nor_gl_4k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/rubber_tiles/rubber_tiles_nor_gl_4k.jpg",
+    "md5": "0768da3a367d886c45d0290a7d35b851",
+    "source": "https://polyhaven.com/a/rubber_tiles",
+    "license": "CC0-1.0"
+  },
+  {
+    "asset": "studio_small_09",
+    "channel": "hdri",
+    "path": "studio_small_09\\studio_small_09_1k.hdr",
+    "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/studio_small_09_1k.hdr",
+    "md5": "d5d7eb9d26d341d6aa4d11c1a54fd97c",
+    "source": "https://polyhaven.com/a/studio_small_09",
+    "license": "CC0-1.0"
+  }
+]

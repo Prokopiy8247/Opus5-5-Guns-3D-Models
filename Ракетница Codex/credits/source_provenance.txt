@@ -1,0 +1,18 @@
+Model geometry and source: authored by Codex for the owner of RING, 2026-10-11.
+No downloaded third-party geometry or textures were used.
+References: photographs 7 and 8 supplied by the owner in the current conversation.
+Photographs retain their original provenance; no CC0/CC-BY licence is asserted for them.
+The audit utility is a local copy of the installed blender-asset-workflow helper,
+with polygon tessellation normalized to millimetres for numerical accuracy.
+
+v02 research: public Sketchfab previews by i_c_e_m_a_n_, TallinJH and Lazy Hanby;
+real product photographs from AAG Canada and Kodiak Canada; official Orion FAQ.
+Source links, authors, API metadata and usage roles: references/web/sources.md.
+These reference images retain their original rights; they are not asset textures.
+No third-party mesh has been downloaded or incorporated.
+
+worn_v01: original native UCUPaint authoring and four synthetic masks by Codex for
+the owner of RING. No pixels from the four owner-supplied wear references have been
+copied into the masks. Those photographs retain their original rights and are
+provided only as visual references. Source hashes and mask roles: textures/worn_v01/manifest.json.
+The local native API helper is a copy of the installed weapon-asset-texturing skill helper.

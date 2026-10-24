@@ -1,0 +1,56 @@
+{
+  "slug": "flare_claude",
+  "title": "Ракетница Claude",
+  "blender": "5.2.2 LTS",
+  "files": [
+    {
+      "path": "models/FlareGun_Claude_v02_ucupaint_worn_v01.blend",
+      "source_sha256": "afad9d6e388f723258cb641b70822dbe5b18712cf0b9bfb4fbec42b424ea9f7e",
+      "sha256": "8885b88dd85361d6a1e8ad0457de7590ad856e768c0b947304f85e64d2c6486b",
+      "bytes": 2341288,
+      "geometry_signature": "264cd7496573c8b3bd9a8a97eddeaedaed0407a5261aa7d194035323d49a5bad",
+      "geometry_preserved": true,
+      "reopened": true,
+      "images": [
+        {
+          "name": "chips.png",
+          "path": "textures/chips__09e55f8f7661c2f7.png",
+          "sha256": "09e55f8f7661c2f7dd3c7a7057ff0bce319f7e91e2c5bd25ab12aed1744b2fa2",
+          "bytes": 74073,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "scratches_deep.png",
+          "path": "textures/scratches_deep__fb8fde765178beff.png",
+          "sha256": "fb8fde765178beff5df8ed4538a92332fb2d5b12e0005729dc2a0e8249d53aa9",
+          "bytes": 43167,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "scratches_fine.png",
+          "path": "textures/scratches_fine__3f0a1435130ce119.png",
+          "sha256": "3f0a1435130ce11978cee22008a5a8f7e6575d9e1a25ddefc76653753682f98a",
+          "bytes": 156583,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "stains.png",
+          "path": "textures/stains__8c94159861e7afe7.png",
+          "sha256": "8c94159861e7afe7768af59c4236253e551dbf0da5ba96af96a8d14eb00a5189",
+          "bytes": 847530,
+          "colorspace": "Non-Color",
+          "packed": true
+        }
+      ],
+      "fonts": [],
+      "standard_brush_assets": [],
+      "objects": 15,
+      "meshes": 12,
+      "source_filename": "FlareGun_Claude_v02_ucupaint_worn_v01.blend"
+    }
+  ],
+  "ok": true
+}

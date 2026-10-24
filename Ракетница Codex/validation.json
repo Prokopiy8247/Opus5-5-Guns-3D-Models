@@ -1,0 +1,56 @@
+{
+  "slug": "flare_codex",
+  "title": "Ракетница Codex",
+  "blender": "5.2.2 LTS",
+  "files": [
+    {
+      "path": "models/flare_pistol_codex_ucupaint_worn_v03.blend",
+      "source_sha256": "81b4e531bb6196246c27d28cbbf704fe0ac501fd9503a6a363fd4fb99ef501df",
+      "sha256": "67731ad8ae491f312eec76e21871338d64efaaeab8440aaef2f5557c20978f48",
+      "bytes": 12087531,
+      "geometry_signature": "b3983104200ed5096476d3a21ee0e4d4fb489d610c5a847e80745a75345a21f6",
+      "geometry_preserved": true,
+      "reopened": true,
+      "images": [
+        {
+          "name": "frame_contact_guide_v01.png",
+          "path": "textures/frame_contact_guide_v01__8bdc53089f2b15a7.png",
+          "sha256": "8bdc53089f2b15a7c899200a0245f1ff2896dac597e9b56be4c50e4f9941e671",
+          "bytes": 32510,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "paint_fractures_v01.png",
+          "path": "textures/paint_fractures_v01__32867537162dbc51.png",
+          "sha256": "32867537162dbc5175207182100c500ee5f91963f577bba531b3d5cfebad78ec",
+          "bytes": 156762,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "scratches_fine_v01.png",
+          "path": "textures/scratches_fine_v01__02cd697e5c7c06e9.png",
+          "sha256": "02cd697e5c7c06e9690cffa7cad126d0dce263aeca1db09820e73d4934ae13a7",
+          "bytes": 207769,
+          "colorspace": "Non-Color",
+          "packed": true
+        },
+        {
+          "name": "scratches_through_v01.png",
+          "path": "textures/scratches_through_v01__802e054744209733.png",
+          "sha256": "802e054744209733888d0bde3f780ab2ec7b8d9b24852ab46233c59ee45e0079",
+          "bytes": 49444,
+          "colorspace": "Non-Color",
+          "packed": true
+        }
+      ],
+      "fonts": [],
+      "standard_brush_assets": [],
+      "objects": 103,
+      "meshes": 88,
+      "source_filename": "flare_pistol_codex_ucupaint_worn_v03.blend"
+    }
+  ],
+  "ok": true
+}
